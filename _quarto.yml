@@ -1,0 +1,25 @@
+project:
+  type: website
+
+website:
+  title: Christophe Gouel
+  open-graph: true # https://quarto.org/docs/websites/website-tools.html#open-graph
+  page-footer: ""
+  search: false
+  navbar:
+    right:
+      - href: papers.md
+      - text: CV
+        icon: file-pdf
+        menu:
+        - text: English
+          href: docs/CV_en.pdf
+        - text: French
+          href: docs/CV_fr.pdf
+      - text: RECS solver
+        icon: box-arrow-right
+        href: https://www.recs-solver.org/
+
+format:
+  html:
+    theme: [cosmo, styles.scss]

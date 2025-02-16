@@ -19,7 +19,7 @@ jobs:
 
       - name: Install Quarto Extensions
         run: |
-          quarto add mcanouil/quarto-iconify
+          quarto add --no-prompt mcanouil/quarto-iconify
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2

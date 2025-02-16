@@ -24,7 +24,7 @@ about: # https://quarto.org/docs/websites/website-about.html
 
 Welcome to my home page.
 
-I am working as an academic economist at INRAE in the [Paris-Saclay Applied Economis research unit](https://eng-psae.versailles-saclay.hub.inrae.fr), where I am a senior research fellow.
+I am working as an academic economist at INRAE in the [Paris-Saclay Applied Economis research unit](https://psae-saclay.fr/), where I am a senior research fellow.
 
 My main research topic is the dynamics of agricultural markets.
 

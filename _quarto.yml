@@ -13,9 +13,9 @@ website:
         icon: file-pdf
         menu:
         - text: English
-          href: docs/CV_en.pdf
+          href: docs/cv_christophe_gouel_en.pdf
         - text: French
-          href: docs/CV_fr.pdf
+          href: docs/cv_christophe_gouel_fr.pdf
       - text: RECS solver
         icon: box-arrow-right
         href: https://www.recs-solver.org/

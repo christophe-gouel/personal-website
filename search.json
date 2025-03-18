@@ -1,33 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Christophe Gouel",
-    "section": "",
-    "text": "Welcome to my home page.\nI am working as an academic economist at INRAE in the Paris-Saclay Applied Economis research unit, where I am a senior research fellow.\nMy main research topic is the dynamics of agricultural markets.\nMy work deals with two separate issues: the short-run and the long-run dynamics of agricultural markets. Regarding short-run issues, I study the causes of commodity prices volatility and the design of stabilization policies. On long-run issues, I work on global food security and international trade in agricultural goods."
-  },
-  {
-    "objectID": "index.html#short-vitae",
-    "href": "index.html#short-vitae",
-    "title": "Christophe Gouel",
-    "section": "Short vitae",
-    "text": "Short vitae\n\nSince 2019, I am a senior research fellow at INRAE.\nIn 2012/2018, I was a research fellow at INRA.\nIn 2017/2018, I was a visiting fellow at IFPRI, in the division Market, Trade an Institutions.\nIn 2011/2012, I was an economist at the World Bank, Development research group for the Agriculture and Rural Development program.\nIn 2008/2011, I was an economist in INRA, Economie Publique research unit. I was also a PhD student at the Econometrics Laboratory at the Ecole Polytechnique. My PhD dissertation revolves around agricultural prices fluctuations and of the optimal design of stabilisation policies. I defended it in April 2011 and I was under the direction of Jean-Marc Bourgeon and Sébastien Jean.\nIn 2006/2008, I was an economist at CEPII, where I am still a scientific advisor. At CEPII, I contributed to the development of the applied general equilibrium model MIRAGE and I used it to study issues such as agricultural policies, trade policies and WTO negotiations."
-  },
-  {
-    "objectID": "index.html#research-topics",
-    "href": "index.html#research-topics",
-    "title": "Christophe Gouel",
-    "section": "Research topics",
-    "text": "Research topics\n\nAgricultural policies\nCommodity price dynamics\nComputational methods\nFood security\nInternational trade"
-  },
-  {
-    "objectID": "index.html#contact-information",
-    "href": "index.html#contact-information",
-    "title": "Christophe Gouel",
-    "section": "Contact information",
-    "text": "Contact information\nEmail: christophe.gouel@inrae.fr\nINRAE–AgroParisTech\nParis-Saclay Applied Economics\n22 place de l'Agronomie\n91120 Palaiseau, France\nPhone: +33 1 89 10 09 99"
-  },
-  {
     "objectID": "papers.html",
     "href": "papers.html",
     "title": "Papers",
@@ -54,5 +26,33 @@
     "title": "Papers",
     "section": "Briefs",
     "text": "Briefs\nLa demande alimentaire mondiale en 2050\nGouel C. and Guimbard H. (2017)\nLa Lettre du CEPII N°377.\nVolatilité des cours des commodités agricoles et politiques de stabilisation\nFéménia F. and Gouel C. (2016)\nINRA Sciences Sociales N°1–2/2016.\nAmerican and European Agricultural Market Access: A Concern for The South?\nGouel C. and Ramos M.P. (2008)\nLa Lettre du CEPII N°277."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Christophe Gouel",
+    "section": "",
+    "text": "Welcome to my home page.\nI am working as an academic economist at INRAE in the Paris-Saclay Applied Economis research unit, where I am a senior research fellow.\nMy main research topic is the dynamics of agricultural markets.\nMy work deals with two separate issues: the short-run and the long-run dynamics of agricultural markets. Regarding short-run issues, I study the causes of commodity prices volatility and the design of stabilization policies. On long-run issues, I work on global food security and international trade in agricultural goods."
+  },
+  {
+    "objectID": "index.html#short-vitae",
+    "href": "index.html#short-vitae",
+    "title": "Christophe Gouel",
+    "section": "Short vitae",
+    "text": "Short vitae\n\nSince 2019, I am a senior research fellow at INRAE.\nIn 2012/2018, I was a research fellow at INRA.\nIn 2017/2018, I was a visiting fellow at IFPRI, in the division Market, Trade an Institutions.\nIn 2011/2012, I was an economist at the World Bank, Development research group for the Agriculture and Rural Development program.\nIn 2008/2011, I was an economist in INRA, Economie Publique research unit. I was also a PhD student at the Econometrics Laboratory at the Ecole Polytechnique. My PhD dissertation revolves around agricultural prices fluctuations and of the optimal design of stabilisation policies. I defended it in April 2011 and I was under the direction of Jean-Marc Bourgeon and Sébastien Jean.\nIn 2006/2008, I was an economist at CEPII, where I am still a scientific advisor. At CEPII, I contributed to the development of the applied general equilibrium model MIRAGE and I used it to study issues such as agricultural policies, trade policies and WTO negotiations."
+  },
+  {
+    "objectID": "index.html#research-topics",
+    "href": "index.html#research-topics",
+    "title": "Christophe Gouel",
+    "section": "Research topics",
+    "text": "Research topics\n\nAgricultural policies\nCommodity price dynamics\nComputational methods\nFood security\nInternational trade"
+  },
+  {
+    "objectID": "index.html#contact-information",
+    "href": "index.html#contact-information",
+    "title": "Christophe Gouel",
+    "section": "Contact information",
+    "text": "Contact information\nEmail: christophe.gouel@inrae.fr\nINRAE–AgroParisTech\nParis-Saclay Applied Economics\n22 place de l'Agronomie\n91120 Palaiseau, France\nPhone: +33 1 89 10 09 99"
   }
 ]

@@ -5,6 +5,11 @@ toc: true
 
 For all my peer-reviewed articles, there is a freely available version, either pre-print or post-print. But if you want the publisher version and do not have the access, [send me an email](mailto:christophe.gouel@inrae.fr).
 
+## Working papers
+
+[**Carbon Bias of Tariffs: Are Fossil fuels the Culprits?**](https://www.cepii.fr/CEPII/fr/publications/wp/abstract.asp?NoDoc=14655)\
+Bellora C., Fontagné L., <u>Gouel C.</u>, and Salib Y. (2025)\
+
 ## Peer-reviewed journals
 
 [**The Role of Storage in Commodity Markets: Indirect Inference Based on Grains Data**](https://www.econometricsociety.org/publications/quantitative-economics/forthcoming-papers/0000/00/00/The-Role-of-Storage-in-Commodity-Markets-Indirect-Inference-Based-on-Grain-Data/file/2329-4.pdf) {{< iconify academicons:open-access size=large >}}\

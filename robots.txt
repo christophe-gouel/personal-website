@@ -1,1 +1,1 @@
-Sitemap: https://christophe-gouel.github.io/personal-website/sitemap.xml
+Sitemap: https://www.christophegouel.com/sitemap.xml

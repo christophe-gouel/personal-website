@@ -24,4 +24,6 @@ website:
 
 format:
   html:
-    theme: [cosmo, styles.scss]
+    theme:
+      light: [cosmo, styles.scss]
+      dark: darkly

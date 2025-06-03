@@ -8,10 +8,12 @@ about: # https://quarto.org/docs/websites/website-about.html
   links:
     - icon: github
       href: https://github.com/christophe-gouel
-    - icon: linkedin
-      href: https://www.linkedin.com/in/christophe-gouel-a5409210
+    - icon: bluesky
+      href: https://bsky.app/profile/christophe-gouel.bsky.social
     - icon: twitter-x
       href: https://x.com/ChristopheGouel
+    - icon: linkedin
+      href: https://www.linkedin.com/in/christophe-gouel-a5409210
     - text: "{{< iconify academicons:google-scholar size=Large >}}"
       href: https://scholar.google.com/citations?user=cw0qKdAAAAAJ
     - text: "{{< iconify academicons:dataverse size=Large >}}"
@@ -44,6 +46,7 @@ My work deals with two separate issues: the short-run and the long-run dynamics 
 - Agricultural policies
 - Commodity price dynamics
 - Computational methods
+- Environmental economics
 - Food security
 - International trade
 

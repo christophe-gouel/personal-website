@@ -9,7 +9,7 @@ about: # https://quarto.org/docs/websites/website-about.html
     - icon: github
       href: https://github.com/christophe-gouel
       aria-label: GitHub
-    - icon: bluesky
+    - text: "{{< iconify simple-icons:bluesky size=Large >}}"
       href: https://bsky.app/profile/christophe-gouel.bsky.social
       aria-label: BlueSky
     - icon: twitter-x

@@ -8,20 +8,28 @@ about: # https://quarto.org/docs/websites/website-about.html
   links:
     - icon: github
       href: https://github.com/christophe-gouel
+      aria-label: GitHub
     - icon: bluesky
       href: https://bsky.app/profile/christophe-gouel.bsky.social
+      aria-label: BlueSky
     - icon: twitter-x
       href: https://x.com/ChristopheGouel
+      aria-label: X
     - icon: linkedin
       href: https://www.linkedin.com/in/christophe-gouel-a5409210
+      aria-label: LinkedIn
     - text: "{{< iconify academicons:google-scholar size=Large >}}"
       href: https://scholar.google.com/citations?user=cw0qKdAAAAAJ
+      aria-label: Google Scholar
     - text: "{{< iconify academicons:dataverse size=Large >}}"
       href: https://entrepot.recherche.data.gouv.fr/dataverse/christophe-gouel
+      aria-label: Dataverse
     - text: "{{< iconify academicons:ideas-repec size=Large >}}"
       href: https://ideas.repec.org/f/pgo250.html
+      aria-label: IDEAS/RePEc
     - text: "{{< iconify academicons:orcid size=Large >}}"
       href: https://orcid.org/0000-0002-3946-5222
+      aria-label: ORCID
 ---
 
 Welcome to my home page.

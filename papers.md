@@ -9,6 +9,7 @@ For all my peer-reviewed articles, there is a freely available version, either p
 
 [**Carbon Bias of Tariffs: Are Fossil fuels the Culprits?**](https://www.cepii.fr/CEPII/fr/publications/wp/abstract.asp?NoDoc=14655)\
 Bellora C., Fontagné L., <u>Gouel C.</u>, and Salib Y. (2025)\
+[[Slides](docs/carbon_bias_slides.html)]
 
 ## Peer-reviewed journals
 

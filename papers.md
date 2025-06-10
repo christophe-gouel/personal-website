@@ -13,9 +13,9 @@ Bellora C., Fontagné L., <u>Gouel C.</u>, and Salib Y. (2025)\
 
 ## Peer-reviewed journals
 
-[**The Role of Storage in Commodity Markets: Indirect Inference Based on Grains Data**](https://www.econometricsociety.org/publications/quantitative-economics/forthcoming-papers/0000/00/00/The-Role-of-Storage-in-Commodity-Markets-Indirect-Inference-Based-on-Grain-Data/file/2329-4.pdf) {{< iconify academicons:open-access size=large >}}\
-<u>Gouel C.</u> and Legrand N. (forthcoming)\
-**Quantitative Economics**. [[Appendix](https://www.econometricsociety.org/publications/quantitative-economics/forthcoming-papers/0000/00/00/The-Role-of-Storage-in-Commodity-Markets-Indirect-Inference-Based-on-Grain-Data/supp/QE2329SUPP.pdf), [Programs](https://doi.org/10.5281/zenodo.14591285), [Brief](https://www.bayes-cid.com/pdf/issues/2023-summer/publications/CID%20Summer%202023%20Gouel%20et%20al.pdf), [Slides](docs/storage_II_slides.pdf)]
+[**The Role of Storage in Commodity Markets: Indirect Inference Based on Grains Data**](https://doi.org/10.3982/QE2329) {{< iconify academicons:open-access size=large >}}\
+<u>Gouel C.</u> and Legrand N. (2025)\
+**Quantitative Economics**, 16(2), 705--747. [[Appendix](https://www.econometricsociety.org/publications/quantitative-economics/2025/05/01/The-Role-of-Storage-in-Commodity-Markets-Indirect-Inference-Based-on-Grain-Data/supp/QE2329SUPP.pdf), [Programs](https://doi.org/10.5281/zenodo.14591285), [Brief](https://www.bayes-cid.com/pdf/issues/2023-summer/publications/CID%20Summer%202023%20Gouel%20et%20al.pdf), [Slides](docs/storage_II_slides.pdf)]
 
 [**Measuring Climate Change Impacts on Agriculture: An Equilibrium Perspective on Supply-Side Approaches**](https://doi.org/10.1086/730591)\
 Gouel C. (2025)\

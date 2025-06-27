@@ -7,7 +7,7 @@ For all my peer-reviewed articles, there is a freely available version, either p
 
 ## Working papers
 
-[Outsourcing Decarbonization? How Trade Shaped France's Carbon Footprint (2000--14)](https://www.cepii.fr/CEPII/en/publications/wp/abstract.asp?NoDoc=14668)\
+[**Outsourcing Decarbonization? How Trade Shaped France's Carbon Footprint (2000--14)**](https://www.cepii.fr/CEPII/en/publications/wp/abstract.asp?NoDoc=14668)\
 Cotterlaz P. and <u> Gouel C.</u> (2025)
 
 [**Carbon Bias of Tariffs: Are Fossil fuels the Culprits?**](https://www.cepii.fr/CEPII/fr/publications/wp/abstract.asp?NoDoc=14655)\

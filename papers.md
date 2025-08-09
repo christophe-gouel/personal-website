@@ -31,7 +31,7 @@ Gouel C. (2025)\
 
 [**Love of variety and gains from trade**](https://doi.org/10.1016/j.euroecorev.2023.104558)\
 <u>Gouel C.</u> and Jean S. (2023)\
-**European Economic Review**, 158, 104558. [[Appendix](https://ars.els-cdn.com/content/image/1-s2.0-S0014292123001861-mmc1.pdf), [Programs](https://doi.org/10.15454/U0QOAA), [Pre-print](https://www.cepii.fr/CEPII/fr/publications/wp/abstract.asp?NoDoc=13121)]
+**European Economic Review**, 158, 104558. [[Appendix](https://ars.els-cdn.com/content/image/1-s2.0-S0014292123001861-mmc1.pdf), [Programs](https://doi.org/10.15454/U0QOAA), [Post-print](https://hal.inrae.fr/hal-04179396v1/document)]
 
 [**The Crucial Role of Domestic and International Market-Mediated Adaptation to Climate Change**](https://doi.org/10.1016/j.jeem.2020.102408) {{< iconify academicons:open-access size=large >}}\
 <u>Gouel C.</u> and Laborde D. (2021)\

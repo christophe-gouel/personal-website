@@ -7,15 +7,15 @@ For all my peer-reviewed articles, there is a freely available version, either p
 
 ## Working papers
 
-[**Outsourcing Decarbonization? How Trade Shaped France's Carbon Footprint (2000--14)**](https://www.cepii.fr/CEPII/en/publications/wp/abstract.asp?NoDoc=14668)\
-Cotterlaz P. and <u> Gouel C.</u> (2025)\
-[[Brief (fr)](https://www.cepii.fr/CEPII/fr/publications/lettre/abstract.asp?NoDoc=14667)]
-
 [**Carbon Bias of Tariffs: Are Fossil fuels the Culprits?**](https://www.cepii.fr/CEPII/fr/publications/wp/abstract.asp?NoDoc=14655)\
 Bellora C., Fontagné L., <u>Gouel C.</u>, and Salib Y. (2025)\
 [[Slides](docs/carbon_bias_slides.html)]
 
 ## Peer-reviewed journals
+
+[**Outsourcing Decarbonization? How Trade Shaped France's Carbon Footprint (2000--14)**](https://www.cepii.fr/CEPII/en/publications/wp/abstract.asp?NoDoc=14668)\
+Cotterlaz P. and <u> Gouel C.</u> (forthcoming)\
+**Ecological Economics**. [[Programs](https://doi.org/10.57745/KWXFK5), [Brief (fr)](https://www.cepii.fr/CEPII/fr/publications/lettre/abstract.asp?NoDoc=14667)]
 
 [**The Role of Storage in Commodity Markets: Indirect Inference Based on Grains Data**](https://doi.org/10.3982/QE2329) {{< iconify academicons:open-access size=large >}}\
 <u>Gouel C.</u> and Legrand N. (2025)\

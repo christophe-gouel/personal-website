@@ -2,3 +2,5 @@ _extensions
 _site
 .quarto
 /.quarto/
+
+**/*.quarto_ipynb

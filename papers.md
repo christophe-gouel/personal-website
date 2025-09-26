@@ -44,7 +44,7 @@ Gouel C. (2020)\
 
 [**Nutrition transition and the structure of global food demand**](http://dx.doi.org/10.1093/ajae/aay030)\
 <u>Gouel C.</u> and Guimbard H. (2019)\
-**American Journal of Agricultural Economics**, 101(2), 383--403. [[Appendix](https://hal.archives-ouvertes.fr/hal-02043169/file/Global-Food-Demand-SA.pdf), [Programs](https://doi.org/10.15454/9DZLRA), [MAIDADS Simulator (Excel spreadsheet)](https://doi.org/10.15454/9DZLRA/EEBC53), [Post-print](https://hal.archives-ouvertes.fr/hal-02043169/document)]
+**American Journal of Agricultural Economics**, 101(2), 383--403. [[Appendix](https://hal.archives-ouvertes.fr/hal-02043169/file/Global-Food-Demand-SA.pdf), [Programs](https://doi.org/10.15454/9DZLRA), [MAIDADS Simulator (Excel spreadsheet)](https://doi.org/10.15454/9DZLRA/EEBC53), [Post-print](https://hal.archives-ouvertes.fr/hal-02043169/document), [Brief (fr)](https://www.cepii.fr/CEPII/en/publications/lettre/abstract.asp?NoDoc=10263)]
 
 [**Estimating the Competitive Storage Model with Trending Commodity Prices**](http://dx.doi.org/10.1002/jae.2553)\
 <u>Gouel C.</u> and Legrand N. (2017)\
@@ -107,6 +107,22 @@ in CEPII (ed.) *L\'Économie Mondiale 2009.* (pp. 74--86). Paris: La Découverte
 
 ## Briefs
 
+### English
+
+[**The role of trade in adaptation to climate change**](https://cepr.org/voxeu/columns/role-trade-adaptation-climate-change)\
+<u>Gouel C.</u> and Laborde D. (2019)\
+VoxEU Column.
+
+[**American and European Agricultural Market Access: A Concern for The South?**](https://www.cepii.fr/CEPII/en/publications/lettre/abstract.asp?NoDoc=1784)\
+<u>Gouel C.</u> and Ramos M.P. (2008)\
+La Lettre du CEPII N°277.
+
+### French
+
+[**Comment le commerce international a façonné l’empreinte carbone de la France**](https://www.cepii.fr/CEPII/fr/publications/lettre/abstract.asp?NoDoc=14667)\
+Cotterlaz P. and <u> Gouel C.</u> (2025)\
+La Lettre du CEPII N°457.
+
 [**La demande alimentaire mondiale en 2050**](https://www.cepii.fr/CEPII/en/publications/lettre/abstract.asp?NoDoc=10263)\
 <u>Gouel C.</u> and Guimbard H. (2017)\
 La Lettre du CEPII N°377.
@@ -114,7 +130,3 @@ La Lettre du CEPII N°377.
 [**Volatilité des cours des commodités agricoles et politiques de stabilisation**](http://ageconsearch.umn.edu/record/265503)\
 Féménia F. and <u>Gouel C.</u> (2016)\
 INRA Sciences Sociales N°1--2/2016.
-
-[**American and European Agricultural Market Access: A Concern for The South?**](https://www.cepii.fr/CEPII/en/publications/lettre/abstract.asp?NoDoc=1784)\
-<u>Gouel C.</u> and Ramos M.P. (2008)\
-La Lettre du CEPII N°277.

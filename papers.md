@@ -49,7 +49,7 @@ Gouel C. (2025)\
   In economic studies and popular media, interest rates are routinely cited as a major factor behind commodity price fluctuations. At the same time, the transmission channels are far from transparent, leading to long-running debates on the sign and magnitude of interest rate effects. Purely empirical studies struggle to address these issues because of the complex interactions between interest rates, prices, supply changes, and aggregate demand. To move this debate to a solid footing, we extend the competitive storage model to include stochastically evolving interest rates. We establish general conditions for existence and uniqueness of solutions and provide a systematic theoretical and quantitative analysis of the interactions between interest rates and prices.
 </details>
 
-[**Love of variety and gains from trade**](https://doi.org/10.1016/j.euroecorev.2023.104558)\
+[**Love of Variety and Gains from Trade**](https://doi.org/10.1016/j.euroecorev.2023.104558)\
 <u>Gouel C.</u> and Jean S. (2023)\
 **European Economic Review**, 158, 104558. [[Appendix](https://ars.els-cdn.com/content/image/1-s2.0-S0014292123001861-mmc1.pdf), [Programs](https://doi.org/10.15454/U0QOAA), [Post-print](https://hal.inrae.fr/hal-04179396v1/document)]
 <details>
@@ -78,7 +78,7 @@ Gouel C. (2020)\
   Winner of the European Association of Agricultural Economists' 2020 Research Discovery Award.
 </details>
 
-[**Nutrition transition and the structure of global food demand**](https://doi.org/10.1093/ajae/aay030)\
+[**Nutrition Transition and the Structure of Global Food Demand**](https://doi.org/10.1093/ajae/aay030)\
 <u>Gouel C.</u> and Guimbard H. (2019)\
 **American Journal of Agricultural Economics**, 101(2), 383--403. [[Appendix](https://hal.archives-ouvertes.fr/hal-02043169/file/Global-Food-Demand-SA.pdf), [Programs](https://doi.org/10.15454/9DZLRA), [MAIDADS Simulator (Excel spreadsheet)](https://doi.org/10.15454/9DZLRA/EEBC53), [Post-print](https://hal.archives-ouvertes.fr/hal-02043169/document), [Brief (fr)](https://www.cepii.fr/CEPII/en/publications/lettre/abstract.asp?NoDoc=10263)]
 <details>
@@ -110,7 +110,7 @@ Gouel C. (2016)\
   India has pursued an active food security policy for many years by using a combination of trade policy interventions, public distribution of food staples, and assistance to farmers through minimum support prices defended by public stocks. This approach has been quite successful in stabilizing staple food prices, but comes at a high cost, and with potential risks of unmanageable stock accumulation. Based on a rational expectations storage model representing the Indian wheat market and its relation to the rest of the world, we analyse the cost and welfare implications of this policy, and unpack the contribution of its various elements. To analyse alternative policies, we assume that social welfare includes an objective of price stabilization and assess optimal policies corresponding to this objective. We consider fully optimal policies under commitment as well as optimal simple rules, and show that adopting simple rules can achieve most of the gains from fully optimal policies.
 </details>
 
-[**Optimal food price stabilization in a small open developing country**](https://doi.org/10.1093/wber/lht018)\
+[**Optimal Food Price Stabilization in a Small Open Developing Country**](https://doi.org/10.1093/wber/lht018)\
 <u>Gouel C.</u> and Jean S. (2015)\
 **World Bank Economic Review**, 29(1), 72--101. [[Appendix](https://hal.archives-ouvertes.fr/hal-01173054/file/Appendix.pdf), [Programs](https://hal.archives-ouvertes.fr/hal-01173054/file/WBER2014-Gouel-and-Jean-Programs.zip), [Post-print](https://hal.archives-ouvertes.fr/hal-01173054/document)]\
 <details>
@@ -131,7 +131,7 @@ Larson D. F., Lampietti J., <u>Gouel C.</u>, Cafiero C. and Roberts J. (2014)\
   In times of highly volatile commodity markets, governments often try to protect their populations from rapidly rising food prices, which can be particularly harmful for the poor. A potential solution for food-deficit countries is to hold strategic reserves that can be called on when international prices spike. But how large should strategic stockpiles be, and what rules should govern their release? In this paper, we develop a dynamic competitive storage model for wheat in the Middle East and North Africa region, where imported wheat is the most significant component of the average diet. We analyze a strategy that sets aside wheat stockpiles, which can be used to keep domestic prices below a targeted price. Our analysis shows that if the target price is set high and reserves are adequate, the strategy can be effective and robust. Contrary to most interventions, strategic storage policies are counter-cyclical, and when the importing region is sufficiently large, a regional policy can smooth global prices. Simulations indicate that this is the case for the Middle East and North Africa region. Nevertheless, the policy is more costly than a procyclical policy similar to food stamps that uses targeted transfers to directly offset high prices with a subsidy.
 </details>
 
-[**Rules versus discretion in food storage policies**](https://doi.org/10.1093/ajae/aat016)\
+[**Rules versus Discretion in Food Storage Policies**](https://doi.org/10.1093/ajae/aat016)\
 Gouel C. (2013)\
 **American Journal of Agricultural Economics**, 95(4), 1029--1044. [[Appendix](https://hal.archives-ouvertes.fr/hal-01636279/file/Appendix.pdf), [Programs](https://hal.archives-ouvertes.fr/hal-01636279/file/Programs.zip), [Post-print](https://hal.archives-ouvertes.fr/hal-01636279/document)]
 <details>
@@ -147,7 +147,7 @@ Gouel C. (2013)\
   This paper compares numerical methods for solving the competitive storage model. Because storage implies a nonnegativity constraint on stocks, the solution methods must be considered carefully. The model is solved using value function iteration and several projection approaches, including parameterised expectations and decision rules approximation. In considering a storage model with convenience yield, in which the inequality constraint is smoothed, perturbation methods are also applied. Parameterised expectations approximation proves to be the most accurate method, whereas perturbation techniques are shown inadequate for solving this highly nonlinear model. The endogenous grid method allows rapid solution if supply is assumed to be inelastic.
 </details>
 
-[**Optimal food price stabilisation policy**](https://doi.org/10.1016/j.euroecorev.2012.10.003)\
+[**Optimal Food Price Stabilisation Policy**](https://doi.org/10.1016/j.euroecorev.2012.10.003)\
 Gouel C. (2013)\
 **European Economic Review**, 57, 118--134. [[Appendix](https://hal.archives-ouvertes.fr/hal-01019459/file/Appendix.pdf), [Programs](https://hal.archives-ouvertes.fr/hal-01019459/file/EER2013-Programs.zip), [Post-print](https://hal.archives-ouvertes.fr/hal-01019459/document)]
 <details>
@@ -155,7 +155,7 @@ Gouel C. (2013)\
   This paper proposes a framework for designing optimal food price stabilisation policies in a self-sufficient developing country. It uses a rational expectations storage model with risk-averse consumers and incomplete markets. Government stabilises food prices by carrying public stock and by applying a state-contingent subsidy/tax to production. The policy rules are designed to maximise intertemporal welfare. The optimal policy under commitment crowds out all private stockholding activity by removing the profit opportunity from speculation. The countercyclical subsidy/tax to production helps price stabilisation by subsidising production in periods of scarcity and by taxing it in periods of glut. It contributes little to welfare gains, most of which come from stabilisation achieved through public storage.
 </details>
 
-[**Agricultural price instability: A survey of competing explanations and remedies**](https://doi.org/10.1111/j.1467-6419.2010.00634.x)\
+[**Agricultural Price Instability: A Survey of Competing Explanations and Remedies**](https://doi.org/10.1111/j.1467-6419.2010.00634.x)\
 Gouel C. (2012)\
 **Journal of Economic Surveys**, 26(1), 129--156. [[Post-print](https://hal.archives-ouvertes.fr/hal-01001218/document)]
 <details>
@@ -181,7 +181,7 @@ in Barrett C. B. and Just D. R. (ed.) *Handbook of Agricultural Economics.* Volu
 Gouel C. (2014)\
 in Chavas J.-P., Hummels D. and Wright B. (ed.) *The Economics of Food Price Volatility.* Chapter 7 (pp. 261--306). Chicago: University of Chicago Press.
 
-**International trade, price volatility and standards for sustainability**\
+**International Trade, Price Volatility and Standards for Sustainability**\
 Jean S., Bricas N. and <u>Gouel C.</u> (2013)\
 in Esnouf C., Russel M. and Bricas N. (ed.) *Food System Sustainability: Insights From duALIne.* Chapter 8 (pp. 158--175). Cambridge, UK: Cambridge University Press.
 
@@ -193,7 +193,7 @@ in CEPII (ed.) *L\'Économie Mondiale 2009.* (pp. 74--86). Paris: La Découverte
 
 ### English
 
-[**The role of trade in adaptation to climate change**](https://cepr.org/voxeu/columns/role-trade-adaptation-climate-change)\
+[**The Role of Trade in Adaptation to Climate Change**](https://cepr.org/voxeu/columns/role-trade-adaptation-climate-change)\
 <u>Gouel C.</u> and Laborde D. (2019)\
 **VoxEU Column**.
 

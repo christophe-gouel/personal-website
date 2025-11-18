@@ -19,7 +19,7 @@ Bellora C., Fontagné L., <u>Gouel C.</u>, and Salib Y. (2025)\
 
 [**Outsourcing Decarbonization? How Trade Shaped France's Carbon Footprint (2000--14)**](https://doi.org/10.1016/j.ecolecon.2025.108814) {{< iconify academicons:open-access size=large >}}\
 Cotterlaz P. and <u>Gouel C.</u> (2026)\
-**Ecological Economics**, 240, 108814. [[Programs](https://doi.org/10.57745/KWXFK5), [Brief (fr)](https://www.cepii.fr/CEPII/fr/publications/lettre/abstract.asp?NoDoc=14667), [Slides](https://hal.inrae.fr/hal-05298449v1/file/france-ghg-slides-en.pdf)]\
+**Ecological Economics**, 240, 108814. [[Programs](https://doi.org/10.57745/KWXFK5), Brief ([en](https://www.cepii.fr/CEPII/en/publications/lettre/abstract.asp?NoDoc=14667), [fr](https://www.cepii.fr/CEPII/fr/publications/lettre/abstract.asp?NoDoc=14667)), [Slides](https://hal.inrae.fr/hal-05298449v1/file/france-ghg-slides-en.pdf)]\
 <details>
   <summary>Abstract</summary>
   This study examines the evolution of France's carbon footprint from 2000 to 2014, with a particular focus on the role of international trade. During this period, France's territorial emissions decreased by 18%, yet its consumption-based footprint declined by only 5%. This modest reduction reflects an increase in emissions embedded in imports, which grew from 45% to 54% of the total. Employing a novel structural decomposition analysis, we disentangle the contributions of scale, composition, and technique effects from a consumption perspective. Our approach advances traditional methods by explicitly distinguishing between domestic and foreign influences and by separately analyzing trade openness and the geographic reallocation of trade flows. The results underscore the dominance of the technique effect in reducing emissions (-28%), driven primarily by efficiency improvements abroad. However, the geographic composition effect led to a substantial increase in emissions (+18%), especially due to shifts toward more carbon-intensive trading partners prior to 2008. This pattern—characterized by a growing reliance on foreign improvements for emission reductions—likely foreshadows developments in other developed economies as domestic decarbonization advances. It highlights the need for greater coordination between trade and climate policies.
@@ -192,6 +192,10 @@ in CEPII (ed.) *L\'Économie Mondiale 2009.* (pp. 74--86). Paris: La Découverte
 ## Briefs
 
 ### English
+
+[**How International Trade Shaped France's Carbon Footprint**](https://www.cepii.fr/CEPII/en/publications/lettre/abstract.asp?NoDoc=14667)\
+Cotterlaz P. and <u> Gouel C.</u> (2025)\
+**La Lettre du CEPII**, N°457.
 
 [**The Role of Trade in Adaptation to Climate Change**](https://cepr.org/voxeu/columns/role-trade-adaptation-climate-change)\
 <u>Gouel C.</u> and Laborde D. (2019)\

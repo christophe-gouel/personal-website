@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Christophe Gouel</title>
+<title>Blog – Christophe Gouel</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,12 +25,15 @@ ul.task-list li input[type="checkbox"] {
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
@@ -40,7 +43,6 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-0be8949dc84b3fefec59b0df82393ad5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/bootstrap/bootstrap-dark-e7f4145358ce1d0cd37d8d374dbb44f9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <link href="site_libs/bootstrap/bootstrap-0be8949dc84b3fefec59b0df82393ad5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
-<script src="site_libs/quarto-contrib/iconify-3.0.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -56,11 +58,67 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-<meta property="og:title" content="Christophe Gouel">
-<meta property="og:description" content="Economist">
-<meta property="og:image" content="https://www.christophegouel.com/christophe_gouel.jpg">
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<meta property="og:title" content="Blog – Christophe Gouel">
 <meta property="og:site_name" content="Christophe Gouel">
 </head>
 
@@ -247,7 +305,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Papers</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
+    <a class="nav-link active" href="./blog.html" aria-current="page"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -286,91 +344,60 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-trestles">
-  <div class="about-entity">
-    <img src="christophe_gouel.jpg" class="about-image
-  round " style="height: 20em; width: 20em;">
+<main class="content" id="quarto-document-content">
+
+
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Christophe Gouel</h1>
-<p class="subtitle lead">Economist</p>
+<h1 class="title">Blog</h1>
 </div>
+
+
+
 <div class="quarto-title-meta">
+
+    
+  
+    
   </div>
+  
+
+
 </header>
-    <div class="about-links">
-  <a href="https://github.com/christophe-gouel" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="https://bsky.app/profile/christophe-gouel.bsky.social" class="about-link" rel="" target="">
-     <span class="about-link-text"><iconify-icon role="img" inline="" icon="simple-icons:bluesky" style="font-size: 1.5em;" aria-label="Icon bluesky from simple-icons Iconify.design set." title="Icon bluesky from simple-icons Iconify.design set."></iconify-icon></span>
-  </a>
-  <a href="https://x.com/ChristopheGouel" class="about-link" rel="" target="">
-    <i class="bi bi-twitter-x"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="https://www.linkedin.com/in/christophe-gouel-a5409210" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="https://scholar.google.com/citations?user=cw0qKdAAAAAJ" class="about-link" rel="" target="">
-     <span class="about-link-text"><iconify-icon role="img" inline="" icon="academicons:google-scholar" style="font-size: 1.5em;" aria-label="Icon google-scholar from academicons Iconify.design set." title="Icon google-scholar from academicons Iconify.design set."></iconify-icon></span>
-  </a>
-  <a href="https://entrepot.recherche.data.gouv.fr/dataverse/christophe-gouel" class="about-link" rel="" target="">
-     <span class="about-link-text"><iconify-icon role="img" inline="" icon="academicons:dataverse" style="font-size: 1.5em;" aria-label="Icon dataverse from academicons Iconify.design set." title="Icon dataverse from academicons Iconify.design set."></iconify-icon></span>
-  </a>
-  <a href="https://ideas.repec.org/f/pgo250.html" class="about-link" rel="" target="">
-     <span class="about-link-text"><iconify-icon role="img" inline="" icon="academicons:ideas-repec" style="font-size: 1.5em;" aria-label="Icon ideas-repec from academicons Iconify.design set." title="Icon ideas-repec from academicons Iconify.design set."></iconify-icon></span>
-  </a>
-  <a href="https://orcid.org/0000-0002-3946-5222" class="about-link" rel="" target="">
-     <span class="about-link-text"><iconify-icon role="img" inline="" icon="academicons:orcid" style="font-size: 1.5em;" aria-label="Icon orcid from academicons Iconify.design set." title="Icon orcid from academicons Iconify.design set."></iconify-icon></span>
-  </a>
+
+
+
+
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1763510400000" data-listing-file-modified-sort="1763534901507" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14" data-listing-word-count-sort="2682">
+<div class="thumbnail"><a href="./posts/2025-11-19-france-footprint/index.html" class="no-external">
+
+<p class="card-img-top"><img src="posts/2025-11-19-france-footprint/share_imports_embedded_over_time__en.png"  class="thumbnail-image card-img"/></p>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2025-11-19-france-footprint/index.html" class="no-external">How International Trade Shaped France’s Carbon Footprint</a>
+</h3>
+<div class="delink listing-description"><a href="./posts/2025-11-19-france-footprint/index.html" class="no-external">
+</a><p><a href="./posts/2025-11-19-france-footprint/index.html" class="no-external">This post is a reproduction of the English version of the </a><a href="https://www.cepii.fr/CEPII/en/publications/lettre/abstract.asp?NoDoc=14667">Lettre du CEPII 457</a>.<br>
+France stands out for the significant role that imports play in the dynamics of its carbon footprint. Between 2000 and 2014, trade openness worsened France’s carbon footprint, in particular because of the rapid growth of Chinese imports until 2008. At the same time, technological progress within France, but especially abroad, led to a modest reduction in the carbon footprint. For a relatively low-emitting country like France, changes occurring outside the national borders play a key role in the evolution of the carbon footprint. This observation highlights the need to coordinate national efforts with international strategies to reduce emissions linked to the production of our trade partners.</p>
 </div>
-  </div>
-  <div class="about-contents"><main class="content" id="quarto-document-content">
-
-<p>Welcome to my home page.</p>
-<p>I am working as an academic economist at INRAE in the <a href="https://psae-saclay.fr/en/">Paris-Saclay Applied Economis research unit</a>, where I am a senior research fellow.</p>
-<p>My main research topic is the dynamics of agricultural markets.</p>
-<p>My work deals with two separate issues: the short-run and the long-run dynamics of agricultural markets. Regarding short-run issues, I study the causes of commodity prices volatility and the design of stabilization policies. On long-run issues, I work on global food security and international trade in agricultural goods.</p>
-<section id="short-vitae" class="level2">
-<h2 data-anchor-id="short-vitae">Short vitae</h2>
-<ul>
-<li>Since 2019, I am a senior research fellow at INRAE.</li>
-<li>In 2012/2018, I was a research fellow at INRA.</li>
-<li>In 2017/2018, I was a visiting fellow at .</li>
-<li>In 2011/2012, I was an economist at the World Bank, Development research group for the Agriculture and Rural Development program.<a href="https://www.ifpri.org/division/markets-trade-and-institutions-mtid">IFPRI, in the division Market, Trade an Institutions</a></li>
-<li>In 2008/2011, I was an economist in INRA, Economie Publique research unit. I was also a PhD student at the Econometrics Laboratory at the Ecole Polytechnique. <a href="https://pastel.archives-ouvertes.fr/pastel-00584922/">My PhD dissertation</a> revolves around agricultural prices fluctuations and of the optimal design of stabilisation policies. I defended it in April 2011 and I was under the direction of <a href="https://sites.google.com/site/jeanmarcbourgeoneconomics/">Jean-Marc Bourgeon</a> and <a href="http://sebastien.jean.eco.free.fr/">Sébastien Jean</a>.</li>
-<li>In 2006/2008, I was an economist at <a href="https://www.cepii.fr/CEPII/en/welcome.asp">CEPII</a>, where I am still a scientific advisor. At CEPII, I contributed to the development of the applied general equilibrium model <a href="https://mirage-model.eu">MIRAGE</a> and I used it to study issues such as agricultural policies, trade policies and WTO negotiations.</li>
-</ul>
-</section>
-<section id="research-topics" class="level2">
-<h2 data-anchor-id="research-topics">Research topics</h2>
-<ul>
-<li>Agricultural policies</li>
-<li>Commodity price dynamics</li>
-<li>Computational methods</li>
-<li>Environmental economics</li>
-<li>Food security</li>
-<li>International trade</li>
-</ul>
-</section>
-<section id="contact-information" class="level2">
-<h2 data-anchor-id="contact-information">Contact information</h2>
-<p><strong>Email:</strong> <a href="mailto:christophe.gouel@inrae.fr" class="email">christophe.gouel@inrae.fr</a><br>
-<strong>INRAE–AgroParisTech</strong><br>
-<strong>Paris-Saclay Applied Economics</strong><br>
-Office E4.245<br>
-22 place de l'Agronomie<br>
-91120 Palaiseau, France<br>
-<strong>Phone:</strong> +33 1 89 10 09 99</p>
-
-
-</section>
-</main></div>
 </div>
- <!-- /main -->
+<div class="metadata">
+<a href="./posts/2025-11-19-france-footprint/index.html" class="no-external">
+<div class="listing-date">
+Nov 19, 2025
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
@@ -386,6 +413,13 @@ Office E4.245<br>
       window.document.body.appendChild(a);
     }
     setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     

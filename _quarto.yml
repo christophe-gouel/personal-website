@@ -5,13 +5,15 @@ project:
 
 website:
   title: Christophe Gouel
+  site-url: "https://www.christophegouel.com"
   open-graph: true # https://quarto.org/docs/websites/website-tools.html#open-graph
   page-footer: ""
   search: false
   navbar:
     right:
       - href: papers.md
-      - href: blog.md
+      - text: Blog
+        href: blog.md
       - text: CV
         icon: file-pdf
         menu:
@@ -25,6 +27,7 @@ website:
 
 format:
   html:
+    link-external-icon: false
     theme:
       light: [cosmo, styles.scss]
       dark: darkly

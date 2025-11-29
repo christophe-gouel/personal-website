@@ -30,6 +30,8 @@ about: # https://quarto.org/docs/websites/website-about.html
     - text: "{{< iconify academicons:orcid size=Large >}}"
       href: https://orcid.org/0000-0002-3946-5222
       aria-label: ORCID
+    - icon: rss
+      href: index.xml
 ---
 
 Welcome to my home page.

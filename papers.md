@@ -35,7 +35,7 @@ Cotterlaz P. and <u>Gouel C.</u> (2026)\
 
 [**Measuring Climate Change Impacts on Agriculture: An Equilibrium Perspective on Supply-Side Approaches**](https://doi.org/10.1086/730591)\
 Gouel C. (2025)\
-**Journal of the Association of Environmental and Resource Economists**, 12(1), 181--220. [[Appendix](https://hal.inrae.fr/hal-04829202v1/file/ricardian-trade-SA.pdf), [Slides](https://hal.inrae.fr/hal-04829202v1/file/ricardian-trade-slides.pdf), [Programs](https://doi.org/10.7910/DVN/RFHQPK), [Pre-print](https://www.nber.org/papers/w30279)]
+**Journal of the Association of Environmental and Resource Economists**, 12(1), 181--220. [[Appendix](https://hal.inrae.fr/hal-04829202v1/file/ricardian-trade-SA.pdf), [Slides](https://hal.inrae.fr/hal-04829202v1/file/ricardian-trade-slides.pdf), [Programs](https://doi.org/10.7910/DVN/RFHQPK), [Blog post](posts/2025-12-12-market-adaptation/index.qmd), [Pre-print](https://www.nber.org/papers/w30279)]
 <details>
   <summary>Abstract</summary>
   Climate change impacts on agriculture are mostly estimated by supply-side reduced-form regressions, under the implicit assumption of constant crop prices. To test whether this assumption is innocuous, I use a quantitative trade model of global agricultural markets to emulate the findings of a supply-side approach and to calculate welfare changes accounting for price changes. The results show that both welfare measures are weakly correlated and can be of opposite signs and that the supply-side approach tends to underestimate the cost of climate change because of the imperfect substitutability of crops in demand.

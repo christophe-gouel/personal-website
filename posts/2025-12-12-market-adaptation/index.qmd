@@ -1,0 +1,388 @@
+---
+title: "Markets Are Adaptation, Too: Rethinking Who Gains and Who Loses from Climate Change in Agriculture"
+author: Christophe Gouel
+date: 2025-12-12
+bibliography: ./ricardian-trade.bib
+format:
+  html:
+    fig-format: svg
+    embed-resources: false
+execute:
+  echo: false
+  freeze: true
+  message: false
+  warning: false
+abstract: >
+  This post is a reproduction of [PREFALIM Policy Brief 1](https://www.pepr-faircarbon.fr/content/download/1095/12299?version=1).\
+
+  Most of us picture climate change hurting farmers because it hurts yields. We also picture “adaptation” as technology—new varieties, different planting dates, smarter irrigation. This post adds a missing piece: markets are adaptation, too. Because climate shocks are uneven across crops and places, prices move, trade reroutes, and land is reallocated—and once those adjustments occur, winners and losers can look very different from the picture you get from a supply-side perspective, in which prices are kept fixed. Two simple ideas drive the difference. First, foods are not freely interchangeable in people’s diets, so the cost of a typical food basket can rise even if some crops do better under climate change. Second, countries that rely on food imports are exposed when world prices rise, while some large exporters may benefit from higher selling prices despite lower yields. Using a global model, letting prices adjust produces an overall economic loss equivalent to 0.43% of world GDP, whereas the fixed‑price calculation—applied to the same climate shocks—shows a small gain of 0.08%. At the country level, 19 of 50 countries switch sign between the two views, and in 38 of 50 the market‑aware measure is lower than the fixed‑price number. The lesson is straightforward: prices reorganize the impacts of climate change. If you ignore them, you risk getting both the size and the direction wrong.
+---
+
+# Adaptation, expanded: technology and markets
+
+The familiar story runs like this: climate change lowers yields, farmers lose, so countries with worse weather get poorer. That chain of reasoning feels natural because it follows the production side of agriculture—the agronomy—and a narrow view of "adaptation" to climate change centered on technology (new varieties, altered planting dates, irrigation upgrades, better pest management). It misses a second form of adaptation that is less visible because it works in the background of the global food system: markets. Because climate shocks are uneven across crops and places, relative prices change—and those price signals drive three margins of adjustment: consumer switching among products, trade reallocation, and land reallocation.
+
+Those market responses are not an afterthought; they are built in. And they mean the effects we care about—on producers, consumers, and national welfare—need not track local yields one for one. A country with modest agronomic outcomes might lose more if it is a net importer of a staple whose world price jumps. Another, even with mixed yield outcomes, might gain if it is a major exporter whose selling price improves. Market-mediated adaptation is coordinated by price movements and works along three margins:
+
+- Consumer switching among products. When relative prices change, households substitute toward cheaper foods and away from dearer ones, within dietary and processing limits. Because staples are imperfect substitutes, the food price index often rises when multiple staples are hit.
+- Trade reallocation. Countries import more of what they find more difficult to grow and export what becomes relatively competitive. This reshuffling changes a country’s terms of trade—the rate at which it exchanges exports for imports.
+- Land reallocation. Within each country, cropland shifts toward crops with better relative returns. Climate-driven yield changes can induce reallocation even at constant prices, but price movements alter the direction and scale of these shifts.
+
+These mechanisms work even without any new technology. Leaving them out of impact measurement is not a benign simplification—it biases our view of who is hurt and by how much. We now clarify the mechanisms through which markets mediate the effect of climate change.
+
+## A single-country example
+
+To clarify the role of markets in adaptation, consider a closed country growing only one crop. This example is illustrated by @fig-1-country. Climate change can be represented as a pivotal shift of the supply curve to the left, reducing supply for all prices. In this closed, one‑good economy, a leftward pivot of the supply curve raises the domestic price and reduces the quantity demanded. The new equilibrium sits above and to the left of the original: less is produced and consumed, and the price is higher.
+
+::: {#fig-1-country}
+```{r}
+P0 <- 1
+Q0 <- 1
+
+invdemand <- function(d) P0 * (1 + (d / Q0 - 1) / elastD)
+invsupply <- function(s) P0 * (1 + (s / Q0 - 1) / elastS)
+supply <- function(q) P0 * (1 + elastS * (q - Q0) / Q0)
+
+col_bias <- rgb(190, 174, 212, 0.4 * 255, maxColorValue = 255)
+col_W_ric <- rgb(253, 192, 134, 0.4 * 255, maxColorValue = 255)
+col_bias_PS <- rgb(127, 201, 127, 0.4 * 255, maxColorValue = 255)
+
+elastD <- -1.05
+elastS <- -elastD
+delta <- 0.6
+
+invsupply_cc <- function(s) P0 * (1 + (s / (delta * Q0) - 1) / elastS)
+supply_cc <- function(p) Q0 * delta * (p * elastS + P0 * (1 - elastS)) / P0
+
+P1 <- P0 * (1 + (1 - delta) / (delta * elastS - elastD))
+Q1 <- Q0 * (1 + elastD * (1 - delta) / (delta * elastS - elastD))
+
+xlim <- c(0, 2)
+ylim <- c(0, 2)
+
+plot_single_country <- function() {
+  par(mar = c(3.1, 3.1, 0.1, 0.1))
+  curve(
+    expr = invdemand,
+    from = xlim[1],
+    to = xlim[2],
+    xlab = "",
+    ylab = "",
+    main = "",
+    xaxs = "i",
+    yaxs = "i",
+    axes = FALSE,
+    ylim = ylim
+  )
+  curve(invsupply, xlim[1], xlim[2], add = T)
+  segments(x0 = xlim[1], y0 = P0, x1 = Q0, y1 = P0, lty = 3)
+  segments(x0 = Q0, y0 = ylim[1], x1 = Q0, y1 = P0, lty = 3)
+
+  mtext(side = 1, text = "Quantity", line = 2, at = 0.9 * xlim[2])
+  mtext(side = 2, text = "Price", line = 2, at = 0.9 * ylim[2])
+
+  curve(invsupply_cc, xlim[1], xlim[2], add = T, lty = 5)
+  segments(x0 = xlim[1], y0 = P1, x1 = Q1, y1 = P1, lty = 3)
+  segments(x0 = Q1, y0 = ylim[1], x1 = Q1, y1 = P1, lty = 3)
+
+  segments(x0 = supply_cc(P0), y0 = ylim[1], y1 = P0, lty = 3)
+  QRicarS <- c(xlim[1], Q0, supply_cc(P0), xlim[1])
+  PRicarS <- c(invsupply(xlim[1]), P0, P0, invsupply_cc(xlim[1]))
+  polygon(x = QRicarS, y = PRicarS, col = col_W_ric, border = NA)
+
+  QBiasS <- c(supply_cc(P0), Q0, Q1)
+  PBiasS <- c(P0, P0, P1)
+  polygon(x = QBiasS, y = PBiasS, col = col_bias, border = NA)
+
+  polygon(
+    x = c(0, Q1, Q1, 0),
+    y = c(P0, P0, P1, P1),
+    border = NA,
+    density = 10,
+    angle = -45
+  )
+
+  legend(
+    x = "right",
+    fill = c(NA, col_bias, col_W_ric),
+    density = c(10, NA, NA),
+    angle = c(-45, NA, NA),
+    bty = "n",
+    legend = c(
+      "Transfer from\nconsumers to\nproducers",
+      "Market-mediated\nwelfare changes",
+      "Supply-side\nwelfare changes"
+    )
+  )
+
+  # Axes
+  axis(
+    side = 1,
+    at = c(0, supply_cc(P0), Q1, Q0, 100),
+    labels = c(
+      "",
+      expression(delta * italic(Q)),
+      expression(italic(Q^"\u0027")),
+      expression(italic(Q)),
+      ""
+    )
+  )
+  axis(
+    side = 2,
+    at = c(0, P0, P1, 100),
+    las = 1,
+    labels = c("", expression(italic(P)), expression(italic(P^"\u0027")), "")
+  )
+}
+plot_single_country()
+```
+
+Market-mediated adaptations are modest in a one-good, one-country setting.\
+**Subtitle**: Welfare changes from climate change in a one-good, closed-economy.\
+**Notes**: Initial equilibrium ($Q, P$) and equilibrium after climate change ($Q', P'$). Climate change is represented as a pivotal shift to the left of the supply curve reducing production at constant price to $\delta Q$. The orange area corresponds to the welfare change assuming constant price, and the purple area corresponds to the additional welfare change when the price is allowed to adjust.\
+**Source**: Adapted from @Goue22 [Figure 1]
+:::
+
+Because demand and supply meet in a single market for one good, the extra welfare effect of letting the price adjust is small—the tiny triangle between the fixed‑price counterfactual and the new market equilibrium. In this simplified setting, a fixed‑price “supply‑side” calculation gives a reasonable approximation to the total welfare change. But focusing only on the country’s aggregate welfare can hide who bears the loss. The higher price transfers surplus from consumers to producers. Staple foods typically have very low demand elasticity, so even small production declines can trigger large price increases—as seen during the recent global food price spike associated with the war in Ukraine. In such situations, consumers tend to be the ultimate losers, while producers can be more than compensated for lower output by the higher price.
+
+## An open-economy example
+
+In an open economy with two countries—Home and Foreign—trading one agricultural good, the same negative climate shock pivots both supply curves to the left. World demand and trade arbitrage pin down a single price. As that world price rises, Home (the initial net exporter) ships less but at a higher price, while Foreign (the initial net importer) purchases less and pays more. @fig-2-country depicts the welfare accounting: the orange areas measure the fixed‑price (supply‑side) evaluation at the benchmark price; the purple areas capture the additional change once the price is allowed to adjust.
+
+::: {#fig-2-country}
+```{r}
+#| fig-width: 10
+col_tot <- rgb(127, 201, 127, 0.4 * 255, maxColorValue = 255)
+col_eff <- rgb(255, 255, 153, 0.4 * 255, maxColorValue = 255)
+
+elastD <- -1
+elastS <- -elastD
+DH0 <- 0.85
+SH0 <- 1
+deltaH <- 0.9
+DF0 <- 1
+SF0 <- 0.85
+deltaF <- 0.9
+delta <- (SH0 * deltaH + SF0 * deltaF) / (SH0 + SF0)
+
+P1 <- P0 * (1 + (1 - delta) / (delta * elastS - elastD))
+DH1 <- DH0 * (1 + elastD * (1 - delta) / (delta * elastS - elastD))
+SH1 <- SH0 * deltaH * (elastS - elastD) / (delta * elastS - elastD)
+DF1 <- DF0 * (1 + elastD * (1 - delta) / (delta * elastS - elastD))
+SF1 <- SF0 * deltaF * (elastS - elastD) / (delta * elastS - elastD)
+
+invdemand_H <- function(d) P0 * (1 + (d / DH0 - 1) / elastD)
+invsupply_H <- function(s) P0 * (1 + (s / SH0 - 1) / elastS)
+invsupply_H_cc <- function(s) P0 * (1 + (s / (deltaH * SH0) - 1) / elastS)
+supply_H <- function(p) SH0 * (p * elastS + P0 * (1 - elastS)) / P0
+supply_H_cc <- function(p) SH0 * deltaH * (p * elastS + P0 * (1 - elastS)) / P0
+invdemand_F <- function(d) P0 * (1 + (d / DF0 - 1) / elastD)
+invsupply_F <- function(s) P0 * (1 + (s / SF0 - 1) / elastS)
+invsupply_F_cc <- function(s) P0 * (1 + (s / (deltaF * SF0) - 1) / elastS)
+supply_F <- function(p) SF0 * (p * elastS + P0 * (1 - elastS)) / P0
+supply_F_cc <- function(p) SF0 * deltaF * (p * elastS + P0 * (1 - elastS)) / P0
+
+SHR <- supply_H_cc(P0)
+SFR <- supply_F_cc(P0)
+
+xlim <- c(0.7, 1.2)
+ylim <- xlim
+
+plot_two_country <- function() {
+  par(mfrow = c(1, 2))
+
+  # Exporting country
+  par(mar = c(4.1, 3.1, 0.1, 0.25))
+  curve(
+    expr = invdemand_H,
+    from = xlim[1],
+    to = xlim[2],
+    xlab = "Home",
+    ylab = "",
+    main = "",
+    xaxs = "i",
+    yaxs = "i",
+    axes = FALSE,
+    ylim = ylim
+  )
+  curve(invsupply_H, xlim[1], xlim[2], add = T)
+  segments(x0 = xlim[1], y0 = P0, x1 = xlim[2], lty = 3)
+  segments(x0 = DH0, y0 = 0, y1 = P0, lty = 3)
+  segments(x0 = SH0, y0 = 0, y1 = P0, lty = 3)
+  curve(invsupply_H_cc, xlim[1], xlim[2], add = T, lty = 5)
+  segments(x0 = xlim[1], y0 = P1, x1 = xlim[2], lty = 3)
+  segments(x0 = DH1, y0 = 0, y1 = P1, lty = 3)
+  segments(x0 = SH1, y0 = 0, y1 = P1, lty = 3)
+  segments(x0 = SHR, y0 = 0, y1 = P0, lty = 3)
+
+  QCS_H <- c(xlim[1], DH0, xlim[1])
+  PCS_H <- c(invdemand_H(xlim[1]), P0, P0)
+  QPS_H <- c(xlim[1], SH0, xlim[1])
+  PPS_H <- c(invsupply_H(xlim[1]), P0, P0)
+
+  newQCS_H <- c(xlim[1], DH1, xlim[1])
+  newPCS_H <- c(invdemand_H(xlim[1]), P1, P1)
+  newQPS_H <- c(xlim[1], SH1, xlim[1])
+  newPPS_H <- c(invsupply_H_cc(xlim[1]), P1, P1)
+
+  QRicarS_H <- c(xlim[1], SH0, supply_H_cc(P0), xlim[1])
+  PRicarS_H <- c(invsupply_H(xlim[1]), P0, P0, invsupply_H_cc(xlim[1]))
+  polygon(x = QRicarS_H, y = PRicarS_H, col = col_W_ric, border = NA)
+
+  QBiasS_H <- c(DH0, supply_H_cc(P0), SH1, DH1)
+  PBiasS_H <- c(P0, P0, P1, P1)
+  polygon(x = QBiasS_H, y = PBiasS_H, col = col_bias, border = NA)
+
+  axis(
+    side = 1,
+    at = c(0, DH0, SH0, DH1, SH1, 100, SHR),
+    labels = c(
+      "",
+      expression(italic(C[h])),
+      expression(italic(Q[h])),
+      expression(italic(C[h])^"\u0027"),
+      expression(italic(Q[h])^"\u0027"),
+      "",
+      expression(delta * italic(Q[h]))
+    )
+  )
+  axis(
+    side = 2,
+    at = c(0, P0, P1, 100),
+    labels = c("", expression(italic(P)), expression(italic(P^"\u0027")), ""),
+    las = 1
+  )
+
+  mtext(side = 2, text = "Price", line = 2, at = 0.95 * ylim[2])
+
+  text(x = (SHR + DH0) / 2, y = (P0 + P1) / 2, label = ">0")
+
+  # Importing country
+  par(mar = c(4.1, 0.25, 0.1, 0.1))
+  curve(
+    invdemand_F,
+    xlim[1],
+    xlim[2],
+    xlab = "Foreign",
+    ylab = "",
+    main = "",
+    xaxs = "i",
+    yaxs = "i",
+    axes = FALSE,
+    ylim = ylim
+  )
+  curve(invsupply_F, xlim[1], xlim[2], add = T)
+  segments(x0 = xlim[1], y0 = P0, x1 = DF0, lty = 3)
+  segments(x0 = DF0, y0 = 0, y1 = P0, lty = 3)
+  segments(x0 = SF0, y0 = 0, y1 = P0, lty = 3)
+  curve(invsupply_F_cc, xlim[1], xlim[2], add = T, lty = 5)
+  segments(x0 = xlim[1], y0 = P1, x1 = DF1, lty = 3)
+  segments(x0 = DF1, y0 = 0, y1 = P1, lty = 3)
+  segments(x0 = SF1, y0 = 0, y1 = P1, lty = 3)
+  segments(x0 = SFR, y0 = 0, y1 = P0, lty = 3)
+
+  QCS_F <- c(xlim[1], DF0, xlim[1])
+  PCS_F <- c(invdemand_F(xlim[1]), P0, P0)
+  QPS_F <- c(xlim[1], SF0, xlim[1])
+  PPS_F <- c(invsupply_F(xlim[1]), P0, P0)
+
+  newQCS_F <- c(xlim[1], DF1, xlim[1])
+  newPCS_F <- c(invdemand_F(xlim[1]), P1, P1)
+  newQPS_F <- c(xlim[1], SF1, xlim[1])
+  newPPS_F <- c(invsupply_F_cc(xlim[1]), P1, P1)
+
+  QRicarS_F <- c(xlim[1], SF0, supply_F_cc(P0), xlim[1])
+  PRicarS_F <- c(invsupply_F(xlim[1]), P0, P0, invsupply_F_cc(xlim[1]))
+  polygon(x = QRicarS_F, y = PRicarS_F, col = col_W_ric, border = NA)
+
+  QBiasS_F <- c(DF0, supply_F_cc(P0), SF1, DF1)
+  PBiasS_F <- c(P0, P0, P1, P1)
+  polygon(x = QBiasS_F, y = PBiasS_F, col = col_bias, border = NA)
+
+  axis(
+    side = 1,
+    at = c(0, DF0, SF0, DF1, SF1, 100, SFR),
+    labels = c(
+      "",
+      expression(italic(C[f])),
+      expression(italic(Q[f])),
+      expression(italic(C[f])^"\u0027"),
+      expression(italic(Q[f])^"\u0027"),
+      "",
+      expression(delta * italic(Q[f]))
+    )
+  )
+
+  legend(
+    x = "topright",
+    legend = c(
+      "Market-mediated\nwelfare changes",
+      "Supply-side\nwelfare changes"
+    ),
+    fill = c(col_bias, col_W_ric),
+    bty = "n",
+    y.intersp = 1.5
+  )
+
+  mtext(side = 1, text = "Quantity", line = 2, at = 0.95 * xlim[2])
+
+  text(x = (SFR + DF0) / 2, y = (P0 + P1) / 2, label = "<0")
+}
+plot_two_country()
+```
+
+Market-mediated adaptations can become large in open economy.\
+**Subtitle**: Welfare changes from climate change in a one-good, two-country economy.\
+**Notes**: Initial equilibrium ($C_h, C_f, Q_h, Q_f, P$) and equilibrium after climate change ($C_h', C_f', Q_h', Q_f', P'$). Climate change is represented as a pivotal shift to the left of the supply curves by $\delta$. The orange areas correspond to the welfare changes assuming constant price, and the purple areas correspond to the additional welfare changes when the price is allowed to adjust.\
+**Source**: Adapted from @Goue22 [Figure 2]
+:::
+
+For the exporter (Home), the fixed‑price approach overstates the welfare loss because it ignores the improvement in the terms of trade: part of the domestic loss is offset by selling fewer units at a higher price. For the importer (Foreign), the fixed‑price approach understates the loss: beyond the domestic effect of the supply shift, the country pays more for every imported unit, so the welfare loss is aggravated compared with a fixed-price setting. In this two‑country setting the importer’s welfare change associated with market mediation is larger in absolute value than the exporter’s, and the two terms have opposite signs. Aggregating across countries cancels these price-change transfers (i.e., terms-of-trade transfers), so the world‑level market-mediated welfare change is the same small purple one found in the single‑country (autarky) case (@fig-1-country).
+
+How large the country‑level terms-of-trade effect becomes depends on the size of the climate shock, how uneven it is across countries, each country’s trade share, and demand and supply elasticities. For an exporting country, suffering a yield shock relatively smaller than the global shock, the terms‑of‑trade component dominates and market‑mediated adaptation becomes the main driver of the difference between fixed‑price and full‑equilibrium welfare.
+
+## Imperfect substitution in consumption
+
+The other important margin of market-mediated adjustment is that foods are imperfect substitutes in consumption. To clarify what this means, imagine households buy two staples: grains and oils. Climate change hurts grains but helps oils. Even if the average agronomic effect across the two crops looks mild, these products play different roles in diets, and people can’t replace bread with cooking oil one-for-one.
+
+When the grain becomes scarcer, its price rises more than the oil price falls. Households may shift just a bit toward oil, but not much. The cost of a typical grocery basket goes up. A fixed-price tally would treat the grain loss and the oil gain as offsetting—possibly even neutral. Once prices adjust, the cost of eating rises because the newly expensive item is hard to substitute away from. That’s why a market-aware measure can show a loss even when one crop improved.
+
+# From intuition to global evidence
+
+Together, these two forces interact: imperfect substitution tends to make the world as a whole worse off once prices adjust, while terms of trade redistribute gains and losses across countries depending on trade positions. To understand the eventual effect of these adjustment margins, one has to combine them into a global food market model. We implement this in the global model of @Goue21: 50 countries, 35 crop categories (including grass for pasture), production allocated over a grid of agricultural land, calibrated to observed production, consumption, and trade flows, and shocked with climate-driven agronomic yield changes from GAEZ [@IIAS21].
+
+The analysis studies the question of the climate impact on agriculture in two ways: first, the fixed-price view that mimics the “supply-side” approach; second, a full market-equilibrium view where prices, demand, trade, and land allocation adjust across crops and countries.
+
+Two features matter most for interpretation. On the demand side, foods are not perfectly substitutable, so the cost of a typical basket can rise even if some crops do better. On the trade side, imports are calibrated to reproduce observed trade flows and the model adopts a gravity framework, implying that relative price changes shift a country’s terms of trade. This set-up lets us see when the fixed-price number is a reasonable shortcut and when it misleads.
+
+## Results
+
+At the world level, letting prices adjust produces a welfare loss of about 0.43 percent of world GDP, whereas the fixed-price calculation shows a small gain of about 0.08 percent [@Goue22, Tab. 4]. The sign difference comes from the fact that when several staples become relatively scarcer, households cannot fully substitute across foods, implying that the food basket becomes more expensive. At the aggregate level, ignoring limited substitution can make it seem that gains on some crops offset losses on others.
+
+At the country level, the ranking changes even more between the approaches. Nineteen out of fifty countries switch sign between the fixed-price and market-equilibrium measures, and in thirty-eight the market-aware welfare is lower than the fixed-price number (see @fig-welf). Because foods are imperfect substitutes, welfare changes under the fixed-price approach are often substantially smaller than under market equilibrium—and can even have the wrong sign. Because of the role of terms of trade, a useful rule of thumb to understand a country's situation is trade position: net importers tend to fare worse once prices move, while some major exporters look better because their selling prices improve. None of this implies that all households share a gain or loss. Producer gains can coexist with consumer losses, and the split between rural and urban households matters.
+
+::: {#fig-welf}
+![](welfare.svg)
+
+Welfare changes differ markedly between supply-side and market-equilibrium approaches.\
+**Subtitle**: Welfare effects of climate change on agriculture under the two approaches.\
+**Notes**: The points in pink in the top-left and bottom-right quadrants correspond to countries whose welfare measures have opposite signs, the triangle is world welfare, and the blue line is the regression line.\
+**Source**: Adapted from @Goue22 [Figure 4]
+:::
+
+These patterns are not artifacts of a single calibration. When substitution possibilities are made unrealistically high and trade frictions very small, the two measures of welfare change converge, for the reasons above. In plausible ranges of parameters, though, the gap persists because of imperfect substitution and terms of trade.
+
+Other sensitivity exercises that raise substitution elasticities, assume tighter market integration, or add an intensive margin (more output per hectare as prices rise) change magnitudes but not the basic lesson: price movements and trade patterns are central to welfare, and ignoring them can reverse the direction of the effect.
+
+# Using the results
+
+Why mention the fixed-price perspective at all? Because much of the influential literature on climate impacts in agriculture—starting with the Ricardian approach of @Mend94 and the panel-profit tradition [e.g., @Desc07]—estimates how climate or weather affects land values or farm profits while holding output prices fixed, at least implicitly. These reduced-form studies are valuable: they capture farm-level adjustment margins such as switching crops or technologies, and they identify local responses with relatively few structural assumptions.
+
+The trouble begins when such estimates are read as welfare for a country or the world. By construction they set aside market-mediated channels—relative price changes, trade and demand reallocation, and the induced reshuffling of land—that our results show can materially change both the magnitude and the sign of impacts. In other words, these studies are best seen as measuring producer-side responses at given prices, not the total effect on producers and consumers once prices move.
+
+A practical way forward is integration, not replacement. Use reduced-form evidence to discipline how yields and profits respond locally; then embed those responses in an explicit market setting that lets prices and trade adjust. Read in this way, the earlier literature remains essential. It tells us what farmers can do on their own margins; the equilibrium step tells us how those actions play out once prices adjust. The contribution of @Goue22 is to make that link explicit and to show when it matters most.
+
+# References
+
+::: {#refs}
+:::

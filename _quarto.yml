@@ -6,6 +6,7 @@ project:
 website:
   title: Christophe Gouel
   site-url: "https://www.christophegouel.com"
+  llms-txt: true
   open-graph: true # https://quarto.org/docs/websites/website-tools.html#open-graph
   page-footer: ""
   search: false
@@ -17,10 +18,10 @@ website:
       - text: CV
         icon: file-pdf
         menu:
-        - text: English
-          href: docs/cv_christophe_gouel_en.pdf
-        - text: French
-          href: docs/cv_christophe_gouel_fr.pdf
+          - text: English
+            href: docs/cv_christophe_gouel_en.pdf
+          - text: French
+            href: docs/cv_christophe_gouel_fr.pdf
       - text: RECS solver
         icon: box-arrow-right
         href: https://www.recs-solver.org/

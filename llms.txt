@@ -1,0 +1,9 @@
+# Christophe Gouel
+
+## Pages
+
+- [Papers](https://www.christophegouel.com/papers.llms.md)
+- [Markets Are Adaptation, Too: Rethinking Who Gains and Who Loses from Climate Change in Agriculture](https://www.christophegouel.com/posts/2025-12-12-market-adaptation/index.llms.md)
+- [Christophe Gouel](https://www.christophegouel.com/index.llms.md)
+- [Blog [{{< iconify simple-icons:rss >}}](blog.xml)](https://www.christophegouel.com/blog.llms.md)
+- [How International Trade Shaped France’s Carbon Footprint](https://www.christophegouel.com/posts/2025-11-19-france-footprint/index.llms.md)

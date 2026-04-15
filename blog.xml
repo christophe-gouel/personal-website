@@ -10,7 +10,7 @@
 <atom:link href="https://www.christophegouel.com/blog.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <language>en</language>
-<generator>quarto-1.8.26</generator>
+<generator>quarto-1.9.37</generator>
 <lastBuildDate>Fri, 12 Dec 2025 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Markets Are Adaptation, Too: Rethinking Who Gains and Who Loses from Climate Change in Agriculture</title>
@@ -119,13 +119,13 @@ Figure&nbsp;3: Welfare changes differ markedly between supply-side and market-eq
 </section>
 <section id="using-the-results" class="level1">
 <h1>Using the results</h1>
-<p>Why mention the fixed-price perspective at all? Because much of the influential literature on climate impacts in agriculture—starting with the Ricardian approach of <span class="citation" data-cites="Mend94">Mendelsohn, Nordhaus, and Shaw (1994)</span> and the panel-profit tradition <span class="citation" data-cites="Desc07">(e.g., Deschênes and Greenstone 2007)</span>—estimates how climate or weather affects land values or farm profits while holding output prices fixed, at least implicitly. These reduced-form studies are valuable: they capture farm-level adjustment margins such as switching crops or technologies, and they identify local responses with relatively few structural assumptions.</p>
+<p>Why mention the fixed-price perspective at all? Because much of the influential literature on climate impacts in agriculture—starting with the Ricardian approach of <span class="citation" data-cites="Mend94">Mendelsohn et al. (1994)</span> and the panel-profit tradition <span class="citation" data-cites="Desc07">(e.g., Deschênes and Greenstone 2007)</span>—estimates how climate or weather affects land values or farm profits while holding output prices fixed, at least implicitly. These reduced-form studies are valuable: they capture farm-level adjustment margins such as switching crops or technologies, and they identify local responses with relatively few structural assumptions.</p>
 <p>The trouble begins when such estimates are read as welfare for a country or the world. By construction they set aside market-mediated channels—relative price changes, trade and demand reallocation, and the induced reshuffling of land—that our results show can materially change both the magnitude and the sign of impacts. In other words, these studies are best seen as measuring producer-side responses at given prices, not the total effect on producers and consumers once prices move.</p>
 <p>A practical way forward is integration, not replacement. Use reduced-form evidence to discipline how yields and profits respond locally; then embed those responses in an explicit market setting that lets prices and trade adjust. Read in this way, the earlier literature remains essential. It tells us what farmers can do on their own margins; the equilibrium step tells us how those actions play out once prices adjust. The contribution of <span class="citation" data-cites="Goue22">Gouel (2025)</span> is to make that link explicit and to show when it matters most.</p>
 </section>
 <section id="references" class="level1">
 <h1>References</h1>
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
+<div id="refs" class="references csl-bib-body hanging-indent">
 <div id="ref-Desc07" class="csl-entry">
 Deschênes, Olivier, and Michael Greenstone. 2007. <span>“The Economic Impacts of Climate Change: Evidence from Agricultural Output and Random Fluctuations in Weather.”</span> <em>The American Economic Review</em> 97 (1): 354–85. <a href="https://doi.org/10.1257/aer.97.1.354">https://doi.org/10.1257/aer.97.1.354</a>.
 </div>

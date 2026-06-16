@@ -14,6 +14,14 @@ This paper revisits the existence of a carbon bias in trade policies, where emis
 
 ## Peer-reviewed journals
 
+[**Storage and the Economics of Commodity Price Stabilization**](Storage%20and%20the%20Economics%20of%20Commodity%20Price%20Stabilization)  
+*Gouel C.* and Wright B. D. (2026)  
+**Annual Review of Resource Economics**, 18.  
+
+Abstract
+
+This review reassesses the economics of commodity price stabilization policies through the lens of the rational expectations storage model. In frictionless markets, private speculative storage efficiently smooths commodity prices; thus, welfare gains from public intervention require the presence of market or endowment failures, which are prevalent in agricultural markets in low-income settings. Optimal state–contingent stabilization policies raise welfare but are complex, crowd out private storage, and are difficult to design and implement. Simple rules—notably narrow price bands or storage-cost subsidies—offer more feasible approximations, with subsidies being more efficient. In open economies with high trade costs, storage can mitigate price troughs. Conversely, export controls can mitigate domestic transmission of global price spikes but are non-cooperative. Although storage policies stabilize prices, their welfare effects are nuanced. They entail large redistributive transfers that far exceed efficiency gains; accordingly, they should be viewed as second-best instruments, valuable when better-targeted alternatives are unavailable.
+
 [**Outsourcing Decarbonization? How Trade Shaped France’s Carbon Footprint (2000–14)**](https://doi.org/10.1016/j.ecolecon.2025.108814)  
 Cotterlaz P. and *Gouel C.* (2026)  
 **Ecological Economics**, 240, 108814. \[[Programs](https://doi.org/10.57745/KWXFK5), Brief ([en](https://www.cepii.fr/CEPII/en/publications/lettre/abstract.asp?NoDoc=14667), [fr](https://www.cepii.fr/CEPII/fr/publications/lettre/abstract.asp?NoDoc=14667)), [Slides](https://hal.inrae.fr/hal-05298449v1/file/france-ghg-slides-en.pdf)\]  

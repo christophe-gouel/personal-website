@@ -17,6 +17,14 @@ Bellora C., Fontagné L., <u>Gouel C.</u>, and Salib Y. (2025)\
 
 ## Peer-reviewed journals
 
+[**Storage and the Economics of Commodity Price Stabilization**](Storage and the Economics of Commodity Price Stabilization)\
+<u>Gouel C.</u> and Wright B. D. (2026)\
+**Annual Review of Resource Economics**, 18.\
+<details>
+  <summary>Abstract</summary>
+  This review reassesses the economics of commodity price stabilization policies through the lens of the rational expectations storage model. In frictionless markets, private speculative storage efficiently smooths commodity prices; thus, welfare gains from public intervention require the presence of market or endowment failures, which are prevalent in agricultural markets in low-income settings. Optimal state–contingent stabilization policies raise welfare but are complex, crowd out private storage, and are difficult to design and implement. Simple rules—notably narrow price bands or storage-cost subsidies—offer more feasible approximations, with subsidies being more efficient. In open economies with high trade costs, storage can mitigate price troughs. Conversely, export controls can mitigate domestic transmission of global price spikes but are non-cooperative. Although storage policies stabilize prices, their welfare effects are nuanced. They entail large redistributive transfers that far exceed efficiency gains; accordingly, they should be viewed as second-best instruments, valuable when better-targeted alternatives are unavailable.
+</details>
+
 [**Outsourcing Decarbonization? How Trade Shaped France's Carbon Footprint (2000--14)**](https://doi.org/10.1016/j.ecolecon.2025.108814) {{< iconify academicons:open-access size=large >}}\
 Cotterlaz P. and <u>Gouel C.</u> (2026)\
 **Ecological Economics**, 240, 108814. [[Programs](https://doi.org/10.57745/KWXFK5), Brief ([en](https://www.cepii.fr/CEPII/en/publications/lettre/abstract.asp?NoDoc=14667), [fr](https://www.cepii.fr/CEPII/fr/publications/lettre/abstract.asp?NoDoc=14667)), [Slides](https://hal.inrae.fr/hal-05298449v1/file/france-ghg-slides-en.pdf)]\
@@ -64,7 +72,6 @@ Gouel C. (2025)\
   <summary>Abstract</summary>
   Climate change effects on agricultural yields will be uneven over the world. A few countries, mostly in high latitudes, may experience gains, while most will see average yield decrease. This paper aims to quantify the role of market-mediated adjustments in attenuating the effects of climate change by allowing the expression of the new climate-induced pattern of comparative advantages within and between countries. To do this, we develop a quantitative general equilibrium trade model where the representation of land use choice is inspired from modern Ricardian trade models. We use spatially explicit information from the agronomic literature about potential yields before and after climate change for calibration and counterfactual simulations. The results show that the climate-induced yield changes generate large price movements that incentivize adjustments in production and trade. Both production and trade adjustments contribute to reducing welfare losses globally, with production adjustments making the larger contribution.
 </details>
-
 
 [**The Value of Public Information in Storable Commodity Markets: Application to the Soybean Market**](https://doi.org/10.1002/ajae.12013)\
 Gouel C. (2020)\
@@ -121,7 +128,6 @@ Gouel C. (2016)\
   <summary>Award</summary>
   Winner of the European Association of Agricultural Economists' Quality of Policy Contribution Award in honor of Giovanni Anania.
 </details>
-
 
 [**Food Security and Storage in the Middle East and North Africa**](https://doi.org/10.1093/wber/lht015)\
 Larson D. F., Lampietti J., <u>Gouel C.</u>, Cafiero C. and Roberts J. (2014)\

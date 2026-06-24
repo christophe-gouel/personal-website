@@ -4,6 +4,13 @@ For all my peer-reviewed articles, there is a freely available version, either p
 
 ## Working papers
 
+[**Mending the Family Tree of Acreage Choice Models**](https://www.gtap.agecon.purdue.edu/resources/res_display.asp?RecordID=7697)  
+Carpentier A., Femenia F., *Gouel C.*, Koutchadé O. P., and Laborde D. (2026)  
+
+Abstract
+
+This paper compares three tractable frameworks for modeling acreage choice in agricultural equilibrium: (i) the Constant Elasticity of Transformation (CET) used in CGE models, (ii) heterogeneous-land models with Fréchet-distributed yields inspired by quantitative trade theory, and (iii) multinomial logit models obtained from entropy regularization and convex management costs. Within a unified production environment, we derive land allocation, production responses, and supply elasticities, and clarify microfoundations, calibration, and empirical restrictions. A key result shows that, when calibrated on identical benchmark shares and elasticities, CET and Fréchet models yield identical counterfactual production responses but differ for physical hectares: the Fréchet approach preserves area balance, whereas CET generally allocates efficient land rather than hectares. We show that the Fréchet mechanism imposes severe restrictions, including large acreage elasticities and negative yield-composition elasticities that often lack empirical support. We then estimate a nested multinomial logit model on French farm-accounting panel data, obtain acreage elasticities consistent with the literature, and use these estimates to calibrate nested logit, CET, and Fréchet specifications on comparable local output responses. Counterfactual simulations show that matching local supply elasticities is not sufficient: away from the benchmark, the Fréchet selection mechanism can generate implausibly large acreage reallocations and yield declines, while the nested logit separates acreage and intensification responses more transparently. The analysis bridges CGE, quantitative trade, positive mathematical programming, and econometric acreage models, and guides calibration choices when physical land accounting and credible hectare–yield responses matter.
+
 [**Carbon Bias of Tariffs: Are Fossil fuels the Culprits?**](https://www.cepii.fr/CEPII/en/publications/wp/abstract.asp?NoDoc=14655)  
 Bellora C., Fontagné L., *Gouel C.*, and Salib Y. (2025)  
 \[[Slides](docs/carbon_bias_slides.llms.md)\]

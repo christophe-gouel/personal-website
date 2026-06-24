@@ -33,10 +33,18 @@ jobs:
       - name: Render
         uses: quarto-dev/quarto-actions/render@v2
 
+      - name: Inspect rendered site
+        run: |
+          pwd
+          ls -la
+          ls -la _site
+          find . -maxdepth 3 -type f | sort | sed -n '1,200p'
+          test -f _site/index.html
+
       - name: Check links
         uses: JustinBeckwith/linkinator-action@v2
         with:
-          paths: _site/**/*.html
+          paths: _site/index.html
           serverRoot: _site
           recurse: true
           retryErrors: true

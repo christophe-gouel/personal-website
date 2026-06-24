@@ -36,9 +36,8 @@ jobs:
       - name: Inspect rendered site
         run: |
           pwd
-          ls -la
           ls -la _site
-          find . -maxdepth 3 -type f | sort | sed -n '1,200p'
+          find _site -maxdepth 3 -type f | sort | sed -n '1,200p'
           test -f _site/index.html
 
       - name: Check links
@@ -47,6 +46,7 @@ jobs:
           paths: index.html
           serverRoot: _site
           recurse: true
+          linksToSkip: "https://scholar.google.com/.*, https://www.linkedin.com/.*"
           retryErrors: true
           timeout: 30000
           verbosity: INFO

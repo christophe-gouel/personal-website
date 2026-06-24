@@ -30,9 +30,23 @@ jobs:
         run: |
           quarto add --no-prompt mcanouil/quarto-iconify
 
-      - name: Render and Publish
+      - name: Render
+        uses: quarto-dev/quarto-actions/render@v2
+
+      - name: Check links
+        uses: JustinBeckwith/linkinator-action@v2
+        with:
+          paths: _site
+          serverRoot: _site
+          recurse: true
+          retryErrors: true
+          timeout: 30000
+          verbosity: INFO
+
+      - name: Publish
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
+          render: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -24,7 +24,7 @@ Bellora C., Fontagné L., <u>Gouel C.</u>, and Salib Y. (2025)\
 
 ## Peer-reviewed journals
 
-[**Storage and the Economics of Commodity Price Stabilization**](Storage and the Economics of Commodity Price Stabilization)\
+[**Storage and the Economics of Commodity Price Stabilization**](https://doi.org/10.1146/annurev-resource-112624-121752)\
 <u>Gouel C.</u> and Wright B. D. (2026)\
 **Annual Review of Resource Economics**, 18.\
 <details>

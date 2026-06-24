@@ -36,7 +36,7 @@ jobs:
       - name: Check links
         uses: JustinBeckwith/linkinator-action@v2
         with:
-          paths: _site
+          paths: _site/**/*.html
           serverRoot: _site
           recurse: true
           retryErrors: true

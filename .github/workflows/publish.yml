@@ -33,13 +33,6 @@ jobs:
       - name: Render
         uses: quarto-dev/quarto-actions/render@v2
 
-      - name: Inspect rendered site
-        run: |
-          pwd
-          ls -la _site
-          find _site -maxdepth 3 -type f | sort | sed -n '1,200p'
-          test -f _site/index.html
-
       - name: Check links
         uses: JustinBeckwith/linkinator-action@v2
         with:

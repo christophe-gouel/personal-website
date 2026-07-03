@@ -5,7 +5,7 @@ For all my peer-reviewed articles, there is a freely available version, either p
 ## Working papers
 
 [**Mending the Family Tree of Acreage Choice Models**](https://www.gtap.agecon.purdue.edu/resources/res_display.asp?RecordID=7697)  
-Carpentier A., Femenia F., *Gouel C.*, Koutchadé O. P., and Laborde D. (2026)  
+*Gouel C.*, Carpentier A., Femenia F., Koutchadé O. P., and Laborde D. (2026)  
 
 Abstract
 

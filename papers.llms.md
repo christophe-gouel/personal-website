@@ -31,7 +31,7 @@ This review reassesses the economics of commodity price stabilization policies t
 
 [**Outsourcing Decarbonization? How Trade Shaped France’s Carbon Footprint (2000–14)**](https://doi.org/10.1016/j.ecolecon.2025.108814)\
 Cotterlaz P. and *Gouel C.* (2026)\
-**Ecological Economics**, 240, 108814. \[[Programs](https://doi.org/10.57745/KWXFK5), Brief ([en](https://www.cepii.fr/CEPII/en/publications/lettre/abstract.asp?NoDoc=14667), [fr](https://www.cepii.fr/CEPII/fr/publications/lettre/abstract.asp?NoDoc=14667)), [Slides](https://hal.inrae.fr/hal-05298449v1/file/france-ghg-slides-en.pdf)\]\
+**Ecological Economics**, 240, 108814. \[[Programs](https://doi.org/10.57745/KWXFK5), Brief ([en](https://www.cepii.fr/CEPII/en/publications/lettre/abstract.asp?NoDoc=14667), [fr](https://www.cepii.fr/CEPII/fr/publications/lettre/abstract.asp?NoDoc=14667)), [Slides](https://hal.inrae.fr/hal-05298449v1/file/france-ghg-slides-en.pdf)\]
 
 Abstract
 
@@ -79,7 +79,7 @@ Climate change effects on agricultural yields will be uneven over the world. A f
 
 [**The Value of Public Information in Storable Commodity Markets: Application to the Soybean Market**](https://doi.org/10.1002/ajae.12013)\
 Gouel C. (2020)\
-**American Journal of Agricultural Economics**, 102(3), 846–865. \[[Appendix](https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2Fajae.12013&file=ajae12013-sup-0001-AppendixS1.pdf), [Programs](https://doi.org/10.15454/YWAOKM), [Post-print](https://hal.inrae.fr/hal-02622352v2/document)\]\
+**American Journal of Agricultural Economics**, 102(3), 846–865. \[[Appendix](https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2Fajae.12013&file=ajae12013-sup-0001-AppendixS1.pdf), [Programs](https://doi.org/10.15454/YWAOKM), [Post-print](https://hal.inrae.fr/hal-02622352v2/document)\]
 
 Abstract
 
@@ -123,7 +123,7 @@ India has pursued an active food security policy for many years by using a combi
 
 [**Optimal Food Price Stabilization in a Small Open Developing Country**](https://doi.org/10.1093/wber/lht018)\
 *Gouel C.* and Jean S. (2015)\
-**World Bank Economic Review**, 29(1), 72–101. \[[Appendix](https://hal.archives-ouvertes.fr/hal-01173054/file/Appendix.pdf), [Programs](https://hal.archives-ouvertes.fr/hal-01173054/file/WBER2014-Gouel-and-Jean-Programs.zip), [Post-print](https://hal.archives-ouvertes.fr/hal-01173054/document)\]\
+**World Bank Economic Review**, 29(1), 72–101. \[[Appendix](https://hal.archives-ouvertes.fr/hal-01173054/file/Appendix.pdf), [Programs](https://hal.archives-ouvertes.fr/hal-01173054/file/WBER2014-Gouel-and-Jean-Programs.zip), [Post-print](https://hal.archives-ouvertes.fr/hal-01173054/document)\]
 
 Abstract
 
@@ -167,7 +167,7 @@ This paper proposes a framework for designing optimal food price stabilisation p
 
 [**Agricultural Price Instability: A Survey of Competing Explanations and Remedies**](https://doi.org/10.1111/j.1467-6419.2010.00634.x)\
 Gouel C. (2012)\
-**Journal of Economic Surveys**, 26(1), 129–156. \[[Post-print](https://hal.archives-ouvertes.fr/hal-01001218/document), [Teaching](docs/price-volatility.llms.md)\]
+**Journal of Economic Surveys**, 26(1), 129–156. \[[Post-print](https://hal.archives-ouvertes.fr/hal-01001218/document)\]
 
 Abstract
 

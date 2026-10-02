@@ -170,7 +170,7 @@ Gouel C. (2013)\
 
 [**Agricultural Price Instability: A Survey of Competing Explanations and Remedies**](https://doi.org/10.1111/j.1467-6419.2010.00634.x)\
 Gouel C. (2012)\
-**Journal of Economic Surveys**, 26(1), 129--156. [[Post-print](https://hal.archives-ouvertes.fr/hal-01001218/document)]
+**Journal of Economic Surveys**, 26(1), 129--156. [[Post-print](https://hal.archives-ouvertes.fr/hal-01001218/document), [Teaching](docs/price-volatility.html)]
 <details>
   <summary>Abstract</summary>
   There are two explanations for agricultural price dynamics. One follows cobweb logic and models fluctuations driven by expectation errors but emphasises that these expectations create complex dynamics and possibly chaos. The other stems from the rational expectations tradition of dynamics driven by real shocks. The empirical evidence tends to support the latter, but is not conclusive. The rational expectations model generates an optimal dynamic path from which no improvement can be expected from public intervention. However, if we take account of all the potential market failures in agricultural markets, and especially in developing countries, this conclusion might require some qualifications, although an appropriate policy design for stability has still to be achieved. This paper surveys the positive and normative literature on agricultural prices, highlighting empirical evidence and identifying remaining unresolved issues.

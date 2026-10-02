@@ -167,7 +167,7 @@ This paper proposes a framework for designing optimal food price stabilisation p
 
 [**Agricultural Price Instability: A Survey of Competing Explanations and Remedies**](https://doi.org/10.1111/j.1467-6419.2010.00634.x)\
 Gouel C. (2012)\
-**Journal of Economic Surveys**, 26(1), 129–156. \[[Post-print](https://hal.archives-ouvertes.fr/hal-01001218/document)\]
+**Journal of Economic Surveys**, 26(1), 129–156. \[[Post-print](https://hal.archives-ouvertes.fr/hal-01001218/document), [Teaching](docs/price-volatility.llms.md)\]
 
 Abstract
 

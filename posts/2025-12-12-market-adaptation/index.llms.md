@@ -10,7 +10,7 @@ December 12, 2025
 
 Abstract
 
-This post is a reproduction of [PREFALIM Policy Brief 1](https://www.pepr-faircarbon.fr/content/download/1095/12299?version=1).  
+This post is a reproduction of [PREFALIM Policy Brief 1](https://www.pepr-faircarbon.fr/content/download/1095/12299?version=1).\
 Most of us picture climate change hurting farmers because it hurts yields. We also picture “adaptation” as technology—new varieties, different planting dates, smarter irrigation. This post adds a missing piece: markets are adaptation, too. Because climate shocks are uneven across crops and places, prices move, trade reroutes, and land is reallocated—and once those adjustments occur, winners and losers can look very different from the picture you get from a supply-side perspective, in which prices are kept fixed. Two simple ideas drive the difference. First, foods are not freely interchangeable in people’s diets, so the cost of a typical food basket can rise even if some crops do better under climate change. Second, countries that rely on food imports are exposed when world prices rise, while some large exporters may benefit from higher selling prices despite lower yields. Using a global model, letting prices adjust produces an overall economic loss equivalent to 0.43% of world GDP, whereas the fixed‑price calculation—applied to the same climate shocks—shows a small gain of 0.08%. At the country level, 19 of 50 countries switch sign between the two views, and in 38 of 50 the market‑aware measure is lower than the fixed‑price number. The lesson is straightforward: prices reorganize the impacts of climate change. If you ignore them, you risk getting both the size and the direction wrong.
 
 # Adaptation, expanded: technology and markets
@@ -31,9 +31,9 @@ To clarify the role of markets in adaptation, consider a closed country growing 
 
 ![](index_files/figure-html/unnamed-chunk-1-1.svg)
 
-Figure 1: Market-mediated adaptations are modest in a one-good, one-country setting.  
-**Subtitle**: Welfare changes from climate change in a one-good, closed-economy.  
-**Notes**: Initial equilibrium (\\Q, P\\) and equilibrium after climate change (\\Q', P'\\). Climate change is represented as a pivotal shift to the left of the supply curve reducing production at constant price to \\\delta Q\\. The orange area corresponds to the welfare change assuming constant price, and the purple area corresponds to the additional welfare change when the price is allowed to adjust.  
+Figure 1: Market-mediated adaptations are modest in a one-good, one-country setting.\
+**Subtitle**: Welfare changes from climate change in a one-good, closed-economy.\
+**Notes**: Initial equilibrium (\\Q, P\\) and equilibrium after climate change (\\Q', P'\\). Climate change is represented as a pivotal shift to the left of the supply curve reducing production at constant price to \\\delta Q\\. The orange area corresponds to the welfare change assuming constant price, and the purple area corresponds to the additional welfare change when the price is allowed to adjust.\
 **Source**: Adapted from Gouel ([2025, fig. 1](#ref-Goue22))
 
 Because demand and supply meet in a single market for one good, the extra welfare effect of letting the price adjust is small—the tiny triangle between the fixed‑price counterfactual and the new market equilibrium. In this simplified setting, a fixed‑price “supply‑side” calculation gives a reasonable approximation to the total welfare change. But focusing only on the country’s aggregate welfare can hide who bears the loss. The higher price transfers surplus from consumers to producers. Staple foods typically have very low demand elasticity, so even small production declines can trigger large price increases—as seen during the recent global food price spike associated with the war in Ukraine. In such situations, consumers tend to be the ultimate losers, while producers can be more than compensated for lower output by the higher price.
@@ -44,9 +44,9 @@ In an open economy with two countries—Home and Foreign—trading one agricultu
 
 ![](index_files/figure-html/unnamed-chunk-2-1.svg)
 
-Figure 2: Market-mediated adaptations can become large in open economy.  
-**Subtitle**: Welfare changes from climate change in a one-good, two-country economy.  
-**Notes**: Initial equilibrium (\\C_h, C_f, Q_h, Q_f, P\\) and equilibrium after climate change (\\C_h', C_f', Q_h', Q_f', P'\\). Climate change is represented as a pivotal shift to the left of the supply curves by \\\delta\\. The orange areas correspond to the welfare changes assuming constant price, and the purple areas correspond to the additional welfare changes when the price is allowed to adjust.  
+Figure 2: Market-mediated adaptations can become large in open economy.\
+**Subtitle**: Welfare changes from climate change in a one-good, two-country economy.\
+**Notes**: Initial equilibrium (\\C_h, C_f, Q_h, Q_f, P\\) and equilibrium after climate change (\\C_h', C_f', Q_h', Q_f', P'\\). Climate change is represented as a pivotal shift to the left of the supply curves by \\\delta\\. The orange areas correspond to the welfare changes assuming constant price, and the purple areas correspond to the additional welfare changes when the price is allowed to adjust.\
 **Source**: Adapted from Gouel ([2025, fig. 2](#ref-Goue22))
 
 For the exporter (Home), the fixed‑price approach overstates the welfare loss because it ignores the improvement in the terms of trade: part of the domestic loss is offset by selling fewer units at a higher price. For the importer (Foreign), the fixed‑price approach understates the loss: beyond the domestic effect of the supply shift, the country pays more for every imported unit, so the welfare loss is aggravated compared with a fixed-price setting. In this two‑country setting the importer’s welfare change associated with market mediation is larger in absolute value than the exporter’s, and the two terms have opposite signs. Aggregating across countries cancels these price-change transfers (i.e., terms-of-trade transfers), so the world‑level market-mediated welfare change is the same small purple one found in the single‑country (autarky) case ([Figure 1](#fig-1-country)).
@@ -75,9 +75,9 @@ At the country level, the ranking changes even more between the approaches. Nine
 
 ![](welfare.svg)
 
-Figure 3: Welfare changes differ markedly between supply-side and market-equilibrium approaches.  
-**Subtitle**: Welfare effects of climate change on agriculture under the two approaches.  
-**Notes**: The points in pink in the top-left and bottom-right quadrants correspond to countries whose welfare measures have opposite signs, the triangle is world welfare, and the blue line is the regression line.  
+Figure 3: Welfare changes differ markedly between supply-side and market-equilibrium approaches.\
+**Subtitle**: Welfare effects of climate change on agriculture under the two approaches.\
+**Notes**: The points in pink in the top-left and bottom-right quadrants correspond to countries whose welfare measures have opposite signs, the triangle is world welfare, and the blue line is the regression line.\
 **Source**: Adapted from Gouel ([2025, fig. 4](#ref-Goue22))
 
 These patterns are not artifacts of a single calibration. When substitution possibilities are made unrealistically high and trade frictions very small, the two measures of welfare change converge, for the reasons above. In plausible ranges of parameters, though, the gap persists because of imperfect substitution and terms of trade.

@@ -26,10 +26,10 @@ My work deals with two separate issues: the short-run and the long-run dynamics 
 
 ## Contact information
 
-**Email:** <christophe.gouel@inrae.fr>  
-**INRAE–AgroParisTech**  
-**Paris-Saclay Applied Economics**  
-Office E4.245  
-22 place de l'Agronomie  
-91120 Palaiseau, France  
+**Email:** <christophe.gouel@inrae.fr>\
+**INRAE–AgroParisTech**\
+**Paris-Saclay Applied Economics**\
+Office E4.245\
+22 place de l'Agronomie\
+91120 Palaiseau, France\
 **Phone:** +33 1 89 10 09 99

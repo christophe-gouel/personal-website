@@ -26,7 +26,7 @@ Bellora C., Fontagné L., <u>Gouel C.</u>, and Salib Y. (2025)\
 
 [**Storage and the Economics of Commodity Price Stabilization**](https://doi.org/10.1146/annurev-resource-112624-121752) {{< iconify academicons:open-access size=large >}}\
 <u>Gouel C.</u> and Wright B. D. (2026)\
-**Annual Review of Resource Economics**, 18.\
+**Annual Review of Resource Economics**, 18. 63--87.\
 <details>
   <summary>Abstract</summary>
   This review reassesses the economics of commodity price stabilization policies through the lens of the rational expectations storage model. In frictionless markets, private speculative storage efficiently smooths commodity prices; thus, welfare gains from public intervention require the presence of market or endowment failures, which are prevalent in agricultural markets in low-income settings. Optimal state–contingent stabilization policies raise welfare but are complex, crowd out private storage, and are difficult to design and implement. Simple rules—notably narrow price bands or storage-cost subsidies—offer more feasible approximations, with subsidies being more efficient. In open economies with high trade costs, storage can mitigate price troughs. Conversely, export controls can mitigate domestic transmission of global price spikes but are non-cooperative. Although storage policies stabilize prices, their welfare effects are nuanced. They entail large redistributive transfers that far exceed efficiency gains; accordingly, they should be viewed as second-best instruments, valuable when better-targeted alternatives are unavailable.

@@ -23,7 +23,7 @@ This paper revisits the existence of a carbon bias in trade policies, where emis
 
 [**Storage and the Economics of Commodity Price Stabilization**](https://doi.org/10.1146/annurev-resource-112624-121752)\
 *Gouel C.* and Wright B. D. (2026)\
-**Annual Review of Resource Economics**, 18.\
+**Annual Review of Resource Economics**, 18. 63–87.\
 
 Abstract
 

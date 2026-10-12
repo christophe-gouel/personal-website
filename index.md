@@ -44,10 +44,12 @@ My work deals with two separate issues: the short-run and the long-run dynamics 
 
 ## Short vitae
 
+- Since 2026, I am a scientific advisor at [IFE](https://ife.eco/).
 - Since 2019, I am a senior research fellow at INRAE.
+- In 2021/2026, I was a scientific advisor at CEPII.
 - In 2012/2018, I was a research fellow at INRA.
-- In 2017/2018, I was a visiting fellow at .
-- In 2011/2012, I was an economist at the World Bank, Development research group for the Agriculture and Rural Development program.[IFPRI, in the division Market, Trade an Institutions](https://www.ifpri.org/division/markets-trade-and-institutions-mtid)
+- In 2017/2018, I was a visiting fellow at [IFPRI, in the division Market, Trade an Institutions](https://www.ifpri.org/division/markets-trade-and-institutions-mtid).
+- In 2011/2012, I was an economist at the World Bank, Development research group for the Agriculture and Rural Development program.
 - In 2008/2011, I was an economist in INRA, Economie Publique research unit. I was also a PhD student at the Econometrics Laboratory at the Ecole Polytechnique. [My PhD dissertation](https://pastel.archives-ouvertes.fr/pastel-00584922/) revolves around agricultural prices fluctuations and of the optimal design of stabilisation policies. I defended it in April 2011 and I was under the direction of [Jean-Marc Bourgeon](https://sites.google.com/site/jeanmarcbourgeoneconomics/) and [Sébastien Jean](http://sebastien.jean.eco.free.fr/).
 - In 2006/2008, I was an economist at CEPII. At CEPII, I contributed to the development of the applied general equilibrium model [MIRAGE](https://mirage-model.eu) and I used it to study issues such as agricultural policies, trade policies and WTO negotiations.
 
